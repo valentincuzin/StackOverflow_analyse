@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-16">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="confidence" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="support" type="double" />
+    </attributes>
+    <nodes>
+      <node id="('excel-vba',)" label="('excel-vba',)">
+        <attvalues>
+          <attvalue for="0" value="0.004064344998716523" />
+        </attvalues>
+      </node>
+      <node id="('excel',)" label="('excel',)">
+        <attvalues>
+          <attvalue for="0" value="0.008642080944639342" />
+        </attvalues>
+      </node>
+      <node id="('excel', 'excel-vba')" label="('excel', 'excel-vba')">
+        <attvalues>
+          <attvalue for="0" value="0.002609737314965346" />
+        </attvalues>
+      </node>
+      <node id="('excel-vba', 'vba')" label="('excel-vba', 'vba')">
+        <attvalues>
+          <attvalue for="0" value="0.0024813895781637717" />
+        </attvalues>
+      </node>
+      <node id="('vba',)" label="('vba',)">
+        <attvalues>
+          <attvalue for="0" value="0.00504834431419526" />
+        </attvalues>
+      </node>
+      <node id="('excel', 'vba')" label="('excel', 'vba')">
+        <attvalues>
+          <attvalue for="0" value="0.0027808676307007787" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="('excel-vba',)" target="('excel',)" id="0" weight="1.5550904244812673">
+        <attvalues>
+          <attvalue for="1" value="0.6421052631578946" />
+        </attvalues>
+      </edge>
+      <edge source="('excel-vba',)" target="('vba',)" id="1" weight="1.4300317631452586">
+        <attvalues>
+          <attvalue for="1" value="0.6105263157894737" />
+        </attvalues>
+      </edge>
+      <edge source="('excel-vba',)" target="('excel', 'vba')" id="2" weight="0.8464246769105488">
+        <attvalues>
+          <attvalue for="1" value="0.4631578947368421" />
+        </attvalues>
+      </edge>
+      <edge source="('excel',)" target="('vba',)" id="3" weight="0.2865498448897682">
+        <attvalues>
+          <attvalue for="1" value="0.3217821782178218" />
+        </attvalues>
+      </edge>
+      <edge source="('excel',)" target="('excel-vba',)" id="4" weight="0.20813022226982836">
+        <attvalues>
+          <attvalue for="1" value="0.30198019801980197" />
+        </attvalues>
+      </edge>
+      <edge source="('excel',)" target="('excel-vba', 'vba')" id="5" weight="-0.1251531738649156">
+        <attvalues>
+          <attvalue for="1" value="0.21782178217821785" />
+        </attvalues>
+      </edge>
+      <edge source="('excel', 'excel-vba')" target="('vba',)" id="6" weight="1.8687621488158486">
+        <attvalues>
+          <attvalue for="1" value="0.7213114754098361" />
+        </attvalues>
+      </edge>
+      <edge source="('excel-vba', 'vba')" target="('excel',)" id="7" weight="2.016513761134819">
+        <attvalues>
+          <attvalue for="1" value="0.7586206896551724" />
+        </attvalues>
+      </edge>
+      <edge source="('vba',)" target="('excel',)" id="8" weight="1.1936920896034784">
+        <attvalues>
+          <attvalue for="1" value="0.5508474576271186" />
+        </attvalues>
+      </edge>
+      <edge source="('vba',)" target="('excel-vba',)" id="9" weight="0.9587655082801841">
+        <attvalues>
+          <attvalue for="1" value="0.4915254237288135" />
+        </attvalues>
+      </edge>
+      <edge source="('vba',)" target="('excel', 'excel-vba')" id="10" weight="0.48891234563359587">
+        <attvalues>
+          <attvalue for="1" value="0.3728813559322034" />
+        </attvalues>
+      </edge>
+      <edge source="('excel', 'vba')" target="('excel-vba',)" id="11" weight="1.692975615185073">
+        <attvalues>
+          <attvalue for="1" value="0.676923076923077" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

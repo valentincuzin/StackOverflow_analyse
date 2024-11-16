@@ -39,3 +39,4 @@ https://tslearn.readthedocs.io/en/stable/user_guide/clustering.html
 
 ## Frequent pattern mining
 https://medium.com/@codingTuts/python-code-for-frequent-pattern-mining-45ae6fb167bb
+https://medium.com/@iuyasik/market-basket-analysis-apriori-algorithm-using-zhangs-metric-708406fc5dfc

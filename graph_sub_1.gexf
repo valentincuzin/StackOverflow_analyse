@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-16">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="confidence" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="support" type="double" />
+    </attributes>
+    <nodes>
+      <node id="('r',)" label="('r',)">
+        <attvalues>
+          <attvalue for="0" value="0.013476512364165312" />
+        </attvalues>
+      </node>
+      <node id="('dataframe',)" label="('dataframe',)">
+        <attvalues>
+          <attvalue for="0" value="0.0016685205784204673" />
+        </attvalues>
+      </node>
+      <node id="('ggplot2',)" label="('ggplot2',)">
+        <attvalues>
+          <attvalue for="0" value="0.001283477368015744" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="('r',)" target="('ggplot2',)" id="0" weight="-0.610607980559781">
+        <attvalues>
+          <attvalue for="1" value="0.09523809523809525" />
+        </attvalues>
+      </edge>
+      <edge source="('r',)" target="('dataframe',)" id="1" weight="-0.6608961195097107">
+        <attvalues>
+          <attvalue for="1" value="0.08253968253968254" />
+        </attvalues>
+      </edge>
+      <edge source="('dataframe',)" target="('r',)" id="2" weight="1.6523582721870527">
+        <attvalues>
+          <attvalue for="1" value="0.6666666666666666" />
+        </attvalues>
+      </edge>
+      <edge source="('ggplot2',)" target="('r',)" id="3" weight="2.9724219196227057">
+        <attvalues>
+          <attvalue for="1" value="1.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
