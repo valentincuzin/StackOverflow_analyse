@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-16">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="confidence" type="double" />
+      <attribute id="2" title="lift" type="double" />
+      <attribute id="3" title="leverage" type="double" />
+      <attribute id="4" title="conviction" type="double" />
+      <attribute id="5" title="zhang" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="support" type="double" />
+    </attributes>
+    <nodes>
+      <node id="('python-3.x',)" label="('python-3.x',)">
+        <attvalues>
+          <attvalue for="0" value="0.0035937366304440834" />
+        </attvalues>
+      </node>
+      <node id="('django',)" label="('django',)">
+        <attvalues>
+          <attvalue for="0" value="0.010438949259861384" />
+        </attvalues>
+      </node>
+      <node id="('python-2.7',)" label="('python-2.7',)">
+        <attvalues>
+          <attvalue for="0" value="0.005433387524599983" />
+        </attvalues>
+      </node>
+      <node id="('pandas',)" label="('pandas',)">
+        <attvalues>
+          <attvalue for="0" value="0.002823650209634637" />
+        </attvalues>
+      </node>
+      <node id="('python',)" label="('python',)">
+        <attvalues>
+          <attvalue for="0" value="0.052793702404380936" />
+        </attvalues>
+      </node>
+      <node id="('numpy',)" label="('numpy',)">
+        <attvalues>
+          <attvalue for="0" value="0.0027380850517669205" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="('python-3.x',)" target="('python',)" id="0" weight="0.7023809523809523">
+        <attvalues>
+          <attvalue for="1" value="0.7023809523809523" />
+          <attvalue for="2" value="13.304256386509222" />
+          <attvalue for="3" value="0.0023344454949102422" />
+          <attvalue for="4" value="3.1826131599212792" />
+          <attvalue for="5" value="0.9281716893116271" />
+        </attvalues>
+      </edge>
+      <edge source="('django',)" target="('python',)" id="1" weight="0.5122950819672132">
+        <attvalues>
+          <attvalue for="1" value="0.5122950819672132" />
+          <attvalue for="2" value="9.703715758429206" />
+          <attvalue for="3" value="0.004796711586092712" />
+          <attvalue for="4" value="1.9421708959103452" />
+          <attvalue for="5" value="0.9064086467790747" />
+        </attvalues>
+      </edge>
+      <edge source="('python-2.7',)" target="('python',)" id="2" weight="0.6062992125984252">
+        <attvalues>
+          <attvalue for="1" value="0.6062992125984252" />
+          <attvalue for="2" value="11.484309396495616" />
+          <attvalue for="3" value="0.003007409933885669" />
+          <attvalue for="4" value="2.4059039958928725" />
+          <attvalue for="5" value="0.9179120445090247" />
+        </attvalues>
+      </edge>
+      <edge source="('pandas',)" target="('python',)" id="3" weight="0.8787878787878788">
+        <attvalues>
+          <attvalue for="1" value="0.8787878787878788" />
+          <attvalue for="2" value="16.645695201610923" />
+          <attvalue for="3" value="0.002332318629302253" />
+          <attvalue for="4" value="7.8144519551638565" />
+          <attvalue for="5" value="0.942585940597575" />
+        </attvalues>
+      </edge>
+      <edge source="('python',)" target="('django',)" id="4" weight="0.1012965964343598">
+        <attvalues>
+          <attvalue for="1" value="0.1012965964343598" />
+          <attvalue for="2" value="9.703715758429206" />
+          <attvalue for="3" value="0.004796711586092712" />
+          <attvalue for="4" value="1.1010985902735178" />
+          <attvalue for="5" value="0.9469391147244807" />
+        </attvalues>
+      </edge>
+      <edge source="('python',)" target="('python-2.7',)" id="5" weight="0.06239870340356564">
+        <attvalues>
+          <attvalue for="1" value="0.06239870340356564" />
+          <attvalue for="2" value="11.484309396495616" />
+          <attvalue for="3" value="0.003007409933885669" />
+          <attvalue for="4" value="1.0607564388890611" />
+          <attvalue for="5" value="0.963807646734476" />
+        </attvalues>
+      </edge>
+      <edge source="('python',)" target="('numpy',)" id="6" weight="0.04943273905996758">
+        <attvalues>
+          <attvalue for="1" value="0.04943273905996758" />
+          <attvalue for="2" value="18.053763168557534" />
+          <attvalue for="3" value="0.002465183667584479" />
+          <attvalue for="4" value="1.049122935248184" />
+          <attvalue for="5" value="0.9972588742280866" />
+        </attvalues>
+      </edge>
+      <edge source="('python',)" target="('python-3.x',)" id="7" weight="0.04781199351701783">
+        <attvalues>
+          <attvalue for="1" value="0.04781199351701783" />
+          <attvalue for="2" value="13.304256386509222" />
+          <attvalue for="3" value="0.0023344454949102422" />
+          <attvalue for="4" value="1.0464385778706655" />
+          <attvalue for="5" value="0.9763829559199547" />
+        </attvalues>
+      </edge>
+      <edge source="('python',)" target="('pandas',)" id="8" weight="0.04700162074554295">
+        <attvalues>
+          <attvalue for="1" value="0.04700162074554295" />
+          <attvalue for="2" value="16.64569520161092" />
+          <attvalue for="3" value="0.002332318629302253" />
+          <attvalue for="4" value="1.0463568160215229" />
+          <attvalue for="5" value="0.9923122449615301" />
+        </attvalues>
+      </edge>
+      <edge source="('numpy',)" target="('python',)" id="9" weight="0.9531249999999999">
+        <attvalues>
+          <attvalue for="1" value="0.9531249999999999" />
+          <attvalue for="2" value="18.053763168557534" />
+          <attvalue for="3" value="0.002465183667584479" />
+          <attvalue for="4" value="20.207067682039824" />
+          <attvalue for="5" value="0.9472034094984914" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

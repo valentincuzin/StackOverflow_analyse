@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-16">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="confidence" type="double" />
+      <attribute id="2" title="lift" type="double" />
+      <attribute id="3" title="leverage" type="double" />
+      <attribute id="4" title="conviction" type="double" />
+      <attribute id="5" title="zhang" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="support" type="double" />
+    </attributes>
+    <nodes>
+      <node id="('bash',)" label="('bash',)">
+        <attvalues>
+          <attvalue for="0" value="0.006631299734748011" />
+        </attvalues>
+      </node>
+      <node id="('shell',)" label="('shell',)">
+        <attvalues>
+          <attvalue for="0" value="0.004449388209121246" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="('bash',)" target="('shell',)" id="0" weight="0.3032258064516129">
+        <attvalues>
+          <attvalue for="1" value="0.3032258064516129" />
+          <attvalue for="2" value="68.15" />
+          <attvalue for="3" value="0.001981275983040396" />
+          <attvalue for="4" value="1.4287994891443168" />
+          <attvalue for="5" value="0.9919040990824647" />
+        </attvalues>
+      </edge>
+      <edge source="('shell',)" target="('bash',)" id="1" weight="0.4519230769230769">
+        <attvalues>
+          <attvalue for="1" value="0.4519230769230769" />
+          <attvalue for="2" value="68.14999999999999" />
+          <attvalue for="3" value="0.001981275983040396" />
+          <attvalue for="4" value="1.8124621899576527" />
+          <attvalue for="5" value="0.9897301794841319" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

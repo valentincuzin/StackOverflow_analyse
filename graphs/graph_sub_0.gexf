@@ -1,0 +1,1852 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-16">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="confidence" type="double" />
+      <attribute id="2" title="lift" type="double" />
+      <attribute id="3" title="leverage" type="double" />
+      <attribute id="4" title="conviction" type="double" />
+      <attribute id="5" title="zhang" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="support" type="double" />
+    </attributes>
+    <nodes>
+      <node id="('sql',)" label="('sql',)">
+        <attvalues>
+          <attvalue for="0" value="0.02729528535980149" />
+        </attvalues>
+      </node>
+      <node id="('mysql',)" label="('mysql',)">
+        <attvalues>
+          <attvalue for="0" value="0.0344399760417558" />
+        </attvalues>
+      </node>
+      <node id="('express',)" label="('express',)">
+        <attvalues>
+          <attvalue for="0" value="0.0023530418413621975" />
+        </attvalues>
+      </node>
+      <node id="('sql-server',)" label="('sql-server',)">
+        <attvalues>
+          <attvalue for="0" value="0.014546076837511765" />
+        </attvalues>
+      </node>
+      <node id="('javascript',)" label="('javascript',)">
+        <attvalues>
+          <attvalue for="0" value="0.10242149396765637" />
+        </attvalues>
+      </node>
+      <node id="('html5',)" label="('html5',)">
+        <attvalues>
+          <attvalue for="0" value="0.007914777102763755" />
+        </attvalues>
+      </node>
+      <node id="('javascript', 'html', 'jquery')" label="('javascript', 'html', 'jquery')">
+        <attvalues>
+          <attvalue for="0" value="0.009027124155044065" />
+        </attvalues>
+      </node>
+      <node id="('swing',)" label="('swing',)">
+        <attvalues>
+          <attvalue for="0" value="0.00504834431419526" />
+        </attvalues>
+      </node>
+      <node id="('html', 'jquery')" label="('html', 'jquery')">
+        <attvalues>
+          <attvalue for="0" value="0.012920338838025156" />
+        </attvalues>
+      </node>
+      <node id="('asp.net',)" label="('asp.net',)">
+        <attvalues>
+          <attvalue for="0" value="0.02173355009839993" />
+        </attvalues>
+      </node>
+      <node id="('jquery', 'php')" label="('jquery', 'php')">
+        <attvalues>
+          <attvalue for="0" value="0.005647300419269274" />
+        </attvalues>
+      </node>
+      <node id="('java',)" label="('java',)">
+        <attvalues>
+          <attvalue for="0" value="0.08868828612988791" />
+        </attvalues>
+      </node>
+      <node id="('multithreading',)" label="('multithreading',)">
+        <attvalues>
+          <attvalue for="0" value="0.006973560366218876" />
+        </attvalues>
+      </node>
+      <node id="('javascript', 'ajax')" label="('javascript', 'ajax')">
+        <attvalues>
+          <attvalue for="0" value="0.00526225720886455" />
+        </attvalues>
+      </node>
+      <node id="('ajax',)" label="('ajax',)">
+        <attvalues>
+          <attvalue for="0" value="0.011807991785744845" />
+        </attvalues>
+      </node>
+      <node id="('android',)" label="('android',)">
+        <attvalues>
+          <attvalue for="0" value="0.07042012492513049" />
+        </attvalues>
+      </node>
+      <node id="('json',)" label="('json',)">
+        <attvalues>
+          <attvalue for="0" value="0.014631641995379481" />
+        </attvalues>
+      </node>
+      <node id="('android-layout',)" label="('android-layout',)">
+        <attvalues>
+          <attvalue for="0" value="0.00320869342003936" />
+        </attvalues>
+      </node>
+      <node id="('oracle',)" label="('oracle',)">
+        <attvalues>
+          <attvalue for="0" value="0.0063318216822110035" />
+        </attvalues>
+      </node>
+      <node id="('html',)" label="('html',)">
+        <attvalues>
+          <attvalue for="0" value="0.05005561735261402" />
+        </attvalues>
+      </node>
+      <node id="('javascript', 'html')" label="('javascript', 'html')">
+        <attvalues>
+          <attvalue for="0" value="0.020236159835714897" />
+        </attvalues>
+      </node>
+      <node id="('xml',)" label="('xml',)">
+        <attvalues>
+          <attvalue for="0" value="0.011807991785744845" />
+        </attvalues>
+      </node>
+      <node id="('html', 'php')" label="('html', 'php')">
+        <attvalues>
+          <attvalue for="0" value="0.006631299734748011" />
+        </attvalues>
+      </node>
+      <node id="('regex',)" label="('regex',)">
+        <attvalues>
+          <attvalue for="0" value="0.012107469838281851" />
+        </attvalues>
+      </node>
+      <node id="('css', 'html', 'jquery')" label="('css', 'html', 'jquery')">
+        <attvalues>
+          <attvalue for="0" value="0.004962779156327543" />
+        </attvalues>
+      </node>
+      <node id="('database',)" label="('database',)">
+        <attvalues>
+          <attvalue for="0" value="0.010396166680927526" />
+        </attvalues>
+      </node>
+      <node id="('jquery',)" label="('jquery',)">
+        <attvalues>
+          <attvalue for="0" value="0.059938393086335244" />
+        </attvalues>
+      </node>
+      <node id="('javascript', 'jquery')" label="('javascript', 'jquery')">
+        <attvalues>
+          <attvalue for="0" value="0.032044151621459745" />
+        </attvalues>
+      </node>
+      <node id="('.net',)" label="('.net',)">
+        <attvalues>
+          <attvalue for="0" value="0.01625737999486609" />
+        </attvalues>
+      </node>
+      <node id="('spring',)" label="('spring',)">
+        <attvalues>
+          <attvalue for="0" value="0.00804312483956533" />
+        </attvalues>
+      </node>
+      <node id="('android-fragments',)" label="('android-fragments',)">
+        <attvalues>
+          <attvalue for="0" value="0.0027380850517669205" />
+        </attvalues>
+      </node>
+      <node id="('eclipse',)" label="('eclipse',)">
+        <attvalues>
+          <attvalue for="0" value="0.006887995208351159" />
+        </attvalues>
+      </node>
+      <node id="('c#',)" label="('c#',)">
+        <attvalues>
+          <attvalue for="0" value="0.07747925044921708" />
+        </attvalues>
+      </node>
+      <node id="('codeigniter',)" label="('codeigniter',)">
+        <attvalues>
+          <attvalue for="0" value="0.003550954051510225" />
+        </attvalues>
+      </node>
+      <node id="('winforms',)" label="('winforms',)">
+        <attvalues>
+          <attvalue for="0" value="0.004235475314451955" />
+        </attvalues>
+      </node>
+      <node id="('wordpress',)" label="('wordpress',)">
+        <attvalues>
+          <attvalue for="0" value="0.008513733207837769" />
+        </attvalues>
+      </node>
+      <node id="('javascript', 'css', 'html')" label="('javascript', 'css', 'html')">
+        <attvalues>
+          <attvalue for="0" value="0.005989561050740139" />
+        </attvalues>
+      </node>
+      <node id="('twitter-bootstrap',)" label="('twitter-bootstrap',)">
+        <attvalues>
+          <attvalue for="0" value="0.006502951997946436" />
+        </attvalues>
+      </node>
+      <node id="('sqlite',)" label="('sqlite',)">
+        <attvalues>
+          <attvalue for="0" value="0.004149910156584239" />
+        </attvalues>
+      </node>
+      <node id="('tsql',)" label="('tsql',)">
+        <attvalues>
+          <attvalue for="0" value="0.00320869342003936" />
+        </attvalues>
+      </node>
+      <node id="('xaml',)" label="('xaml',)">
+        <attvalues>
+          <attvalue for="0" value="0.0032942585779070764" />
+        </attvalues>
+      </node>
+      <node id="('javascript', 'css', 'jquery')" label="('javascript', 'css', 'jquery')">
+        <attvalues>
+          <attvalue for="0" value="0.005005561735261402" />
+        </attvalues>
+      </node>
+      <node id="('css3',)" label="('css3',)">
+        <attvalues>
+          <attvalue for="0" value="0.005433387524599983" />
+        </attvalues>
+      </node>
+      <node id="('javascript', 'php')" label="('javascript', 'php')">
+        <attvalues>
+          <attvalue for="0" value="0.007059125524086592" />
+        </attvalues>
+      </node>
+      <node id="('php',)" label="('php',)">
+        <attvalues>
+          <attvalue for="0" value="0.07615299050226748" />
+        </attvalues>
+      </node>
+      <node id="('wpf',)" label="('wpf',)">
+        <attvalues>
+          <attvalue for="0" value="0.008085907418499187" />
+        </attvalues>
+      </node>
+      <node id="('asp.net-mvc',)" label="('asp.net-mvc',)">
+        <attvalues>
+          <attvalue for="0" value="0.011209035680670831" />
+        </attvalues>
+      </node>
+      <node id="('linq',)" label="('linq',)">
+        <attvalues>
+          <attvalue for="0" value="0.004192692735518097" />
+        </attvalues>
+      </node>
+      <node id="('listview',)" label="('listview',)">
+        <attvalues>
+          <attvalue for="0" value="0.002823650209634637" />
+        </attvalues>
+      </node>
+      <node id="('css', 'html')" label="('css', 'html')">
+        <attvalues>
+          <attvalue for="0" value="0.021177376572259776" />
+        </attvalues>
+      </node>
+      <node id="('arrays',)" label="('arrays',)">
+        <attvalues>
+          <attvalue for="0" value="0.01608624967913066" />
+        </attvalues>
+      </node>
+      <node id="('entity-framework',)" label="('entity-framework',)">
+        <attvalues>
+          <attvalue for="0" value="0.00526225720886455" />
+        </attvalues>
+      </node>
+      <node id="('jquery', 'ajax')" label="('jquery', 'ajax')">
+        <attvalues>
+          <attvalue for="0" value="0.0063318216822110035" />
+        </attvalues>
+      </node>
+      <node id="('hibernate',)" label="('hibernate',)">
+        <attvalues>
+          <attvalue for="0" value="0.004620518524856679" />
+        </attvalues>
+      </node>
+      <node id="('css',)" label="('css',)">
+        <attvalues>
+          <attvalue for="0" value="0.034739454094292806" />
+        </attvalues>
+      </node>
+      <node id="('javascript', 'css')" label="('javascript', 'css')">
+        <attvalues>
+          <attvalue for="0" value="0.008941558997176349" />
+        </attvalues>
+      </node>
+      <node id="('node.js',)" label="('node.js',)">
+        <attvalues>
+          <attvalue for="0" value="0.011594078891075554" />
+        </attvalues>
+      </node>
+      <node id="('angularjs',)" label="('angularjs',)">
+        <attvalues>
+          <attvalue for="0" value="0.020278942414648754" />
+        </attvalues>
+      </node>
+      <node id="('css', 'jquery')" label="('css', 'jquery')">
+        <attvalues>
+          <attvalue for="0" value="0.007743646787028322" />
+        </attvalues>
+      </node>
+      <node id="('laravel',)" label="('laravel',)">
+        <attvalues>
+          <attvalue for="0" value="0.004021562419782665" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="('sql',)" target="('sql-server',)" id="0" weight="0.23510971786833854">
+        <attvalues>
+          <attvalue for="1" value="0.23510971786833854" />
+          <attvalue for="2" value="16.163101604278076" />
+          <attvalue for="3" value="0.006020347521933238" />
+          <attvalue for="4" value="1.2883598421673514" />
+          <attvalue for="5" value="0.9644557823129253" />
+        </attvalues>
+      </edge>
+      <edge source="('sql',)" target="('mysql',)" id="1" weight="0.2335423197492163">
+        <attvalues>
+          <attvalue for="1" value="0.2335423197492163" />
+          <attvalue for="2" value="6.781140598531903" />
+          <attvalue for="3" value="0.005434555287300411" />
+          <attvalue for="4" value="1.2597695200109609" />
+          <attvalue for="5" value="0.8764552800986167" />
+        </attvalues>
+      </edge>
+      <edge source="('sql',)" target="('database',)" id="2" weight="0.10188087774294671">
+        <attvalues>
+          <attvalue for="1" value="0.10188087774294671" />
+          <attvalue for="2" value="9.799850355405912" />
+          <attvalue for="3" value="0.0024971012944968018" />
+          <attvalue for="4" value="1.1018625578666112" />
+          <attvalue for="5" value="0.9231554160125589" />
+        </attvalues>
+      </edge>
+      <edge source="('sql',)" target="('php',)" id="3" weight="0.10188087774294671">
+        <attvalues>
+          <attvalue for="1" value="0.10188087774294671" />
+          <attvalue for="2" value="1.3378447395301327" />
+          <attvalue for="3" value="0.0007022500239391351" />
+          <attvalue for="4" value="1.028646408480896" />
+          <attvalue for="5" value="0.2596153846153845" />
+        </attvalues>
+      </edge>
+      <edge source="('sql',)" target="('oracle',)" id="4" weight="0.09404388714733543">
+        <attvalues>
+          <attvalue for="1" value="0.09404388714733543" />
+          <attvalue for="2" value="14.852579852579854" />
+          <attvalue for="3" value="0.0023941258563681604" />
+          <attvalue for="4" value="1.0968171241639264" />
+          <attvalue for="5" value="0.9588435374149659" />
+        </attvalues>
+      </edge>
+      <edge source="('mysql',)" target="('php',)" id="5" weight="0.40993788819875776">
+        <attvalues>
+          <attvalue for="1" value="0.40993788819875776" />
+          <attvalue for="2" value="5.383083257729081" />
+          <attvalue for="3" value="0.011495543879767036" />
+          <attvalue for="4" value="1.565677563464578" />
+          <attvalue for="5" value="0.8432752354060343" />
+        </attvalues>
+      </edge>
+      <edge source="('mysql',)" target="('sql',)" id="6" weight="0.18509316770186335">
+        <attvalues>
+          <attvalue for="1" value="0.18509316770186335" />
+          <attvalue for="2" value="6.781140598531903" />
+          <attvalue for="3" value="0.005434555287300411" />
+          <attvalue for="4" value="1.1936391696423168" />
+          <attvalue for="5" value="0.8829406375259049" />
+        </attvalues>
+      </edge>
+      <edge source="('mysql',)" target="('database',)" id="7" weight="0.08819875776397516">
+        <attvalues>
+          <attvalue for="1" value="0.08819875776397516" />
+          <attvalue for="2" value="8.48377680648212" />
+          <attvalue for="3" value="0.0026795193728866838" />
+          <attvalue for="4" value="1.0853284547981652" />
+          <attvalue for="5" value="0.9135920579081739" />
+        </attvalues>
+      </edge>
+      <edge source="('express',)" target="('node.js',)" id="8" weight="0.8545454545454545">
+        <attvalues>
+          <attvalue for="1" value="0.8545454545454545" />
+          <attvalue for="2" value="73.70533378061053" />
+          <attvalue for="3" value="0.0019834998571485775" />
+          <attvalue for="4" value="6.795290707623853" />
+          <attvalue for="5" value="0.9887590522932173" />
+        </attvalues>
+      </edge>
+      <edge source="('sql-server',)" target="('sql',)" id="9" weight="0.4411764705882353">
+        <attvalues>
+          <attvalue for="1" value="0.4411764705882353" />
+          <attvalue for="2" value="16.163101604278072" />
+          <attvalue for="3" value="0.006020347521933238" />
+          <attvalue for="4" value="1.7406294893561447" />
+          <attvalue for="5" value="0.951978235072791" />
+        </attvalues>
+      </edge>
+      <edge source="('sql-server',)" target="('tsql',)" id="10" weight="0.15294117647058825">
+        <attvalues>
+          <attvalue for="1" value="0.15294117647058825" />
+          <attvalue for="2" value="47.6646274509804" />
+          <attvalue for="3" value="0.002178020203524712" />
+          <attvalue for="4" value="1.1767675147124534" />
+          <attvalue for="5" value="0.9934711897462614" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('jquery',)" id="11" weight="0.3128654970760234">
+        <attvalues>
+          <attvalue for="1" value="0.3128654970760234" />
+          <attvalue for="2" value="5.219784531516753" />
+          <attvalue for="3" value="0.025905171855536643" />
+          <attvalue for="4" value="1.3680896577211632" />
+          <attvalue for="5" value="0.9006690840408756" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('html',)" id="12" weight="0.19757727652464493">
+        <attvalues>
+          <attvalue for="1" value="0.19757727652464493" />
+          <attvalue for="2" value="3.9471549243479065" />
+          <attvalue for="3" value="0.015109388724986825" />
+          <attvalue for="4" value="1.1838453160113702" />
+          <attvalue for="5" value="0.8318525445556728" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('angularjs',)" id="13" weight="0.09314954051796157">
+        <attvalues>
+          <attvalue for="1" value="0.09314954051796157" />
+          <attvalue for="2" value="4.5934121520397335" />
+          <attvalue for="3" value="0.007463515524057966" />
+          <attvalue for="4" value="1.0803556940853665" />
+          <attvalue for="5" value="0.8715637784437027" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('html', 'jquery')" id="14" weight="0.08813700918964076">
+        <attvalues>
+          <attvalue for="1" value="0.08813700918964076" />
+          <attvalue for="2" value="6.821571035757163" />
+          <attvalue for="3" value="0.007703803748685196" />
+          <attvalue for="4" value="1.0824868111872505" />
+          <attvalue for="5" value="0.9507872539407878" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('css',)" id="15" weight="0.0873015873015873">
+        <attvalues>
+          <attvalue for="1" value="0.0873015873015873" />
+          <attvalue for="2" value="2.513038548752834" />
+          <attvalue for="3" value="0.005383492209218063" />
+          <attvalue for="4" value="1.0575898155140793" />
+          <attvalue for="5" value="0.6707773637230262" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('php',)" id="16" weight="0.06892230576441102">
+        <attvalues>
+          <attvalue for="1" value="0.06892230576441102" />
+          <attvalue for="2" value="0.9050505477176085" />
+          <attvalue for="3" value="-0.0007405775332603899" />
+          <attvalue for="4" value="0.9922340694201757" />
+          <attvalue for="5" value="-0.10465017031743454" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('css', 'html')" id="17" weight="0.05847953216374269">
+        <attvalues>
+          <attvalue for="1" value="0.05847953216374269" />
+          <attvalue for="2" value="2.7614153228188316" />
+          <attvalue for="3" value="0.0038205425038936465" />
+          <attvalue for="4" value="1.039619059665488" />
+          <attvalue for="5" value="0.7106530028598665" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('ajax',)" id="18" weight="0.05137844611528822">
+        <attvalues>
+          <attvalue for="1" value="0.05137844611528822" />
+          <attvalue for="2" value="4.351158693836039" />
+          <attvalue for="3" value="0.004052865049410748" />
+          <attvalue for="4" value="1.041713636136031" />
+          <attvalue for="5" value="0.8580599409425933" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('css', 'jquery')" id="19" weight="0.04887218045112782">
+        <attvalues>
+          <attvalue for="1" value="0.04887218045112782" />
+          <attvalue for="2" value="6.311261579362771" />
+          <attvalue for="3" value="0.004212445862576119" />
+          <attvalue for="4" value="1.0432418575282627" />
+          <attvalue for="5" value="0.9375815795262888" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('node.js',)" id="20" weight="0.041353383458646614">
+        <attvalues>
+          <attvalue for="1" value="0.041353383458646614" />
+          <attvalue for="2" value="3.5667674721859997" />
+          <attvalue for="3" value="0.0030479924332491278" />
+          <attvalue for="4" value="1.0310430392744074" />
+          <attvalue for="5" value="0.8017505849727012" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('html5',)" id="21" weight="0.03634085213032581">
+        <attvalues>
+          <attvalue for="1" value="0.03634085213032581" />
+          <attvalue for="2" value="4.5915193388877595" />
+          <attvalue for="3" value="0.002911441071959595" />
+          <attvalue for="4" value="1.0294980596514882" />
+          <attvalue for="5" value="0.8714637914598469" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('css', 'html', 'jquery')" id="22" weight="0.03341687552213868">
+        <attvalues>
+          <attvalue for="1" value="0.03341687552213868" />
+          <attvalue for="2" value="6.733500417710943" />
+          <attvalue for="3" value="0.002914311059286038" />
+          <attvalue for="4" value="1.029437816205597" />
+          <attvalue for="5" value="0.9486510962821734" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('json',)" id="23" weight="0.030910609857978277">
+        <attvalues>
+          <attvalue for="1" value="0.030910609857978277" />
+          <attvalue for="2" value="2.112586534562527" />
+          <attvalue for="3" value="0.0016673162087388344" />
+          <attvalue for="4" value="1.0167982108030438" />
+          <attvalue for="5" value="0.5867415556643393" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('arrays',)" id="24" weight="0.030492898913951544">
+        <attvalues>
+          <attvalue for="1" value="0.030492898913951544" />
+          <attvalue for="2" value="1.8955878170603813" />
+          <attvalue for="3" value="0.0014755505376983485" />
+          <attvalue for="4" value="1.0148597665955026" />
+          <attvalue for="5" value="0.5263708424200477" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('jquery', 'php')" id="25" weight="0.030075187969924814">
+        <attvalues>
+          <attvalue for="1" value="0.030075187969924814" />
+          <attvalue for="2" value="5.325586694007747" />
+          <attvalue for="3" value="0.0025019407374120544" />
+          <attvalue for="4" value="1.0251853414281953" />
+          <attvalue for="5" value="0.9049094375595805" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('jquery', 'ajax')" id="26" weight="0.027986633249791143">
+        <attvalues>
+          <attvalue for="1" value="0.027986633249791143" />
+          <attvalue for="2" value="4.419997064733907" />
+          <attvalue for="3" value="0.0022179181523396445" />
+          <attvalue for="4" value="1.0222783063570204" />
+          <attvalue for="5" value="0.862047721355093" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('asp.net',)" id="27" weight="0.022556390977443608">
+        <attvalues>
+          <attvalue for="1" value="0.022556390977443608" />
+          <attvalue for="2" value="1.0378603990290687" />
+          <attvalue for="3" value="8.427659212931335e-05" />
+          <attvalue for="4" value="1.000841829514714" />
+          <attvalue for="5" value="0.04064188115665726" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript',)" target="('html', 'php')" id="28" weight="0.020467836257309944">
+        <attvalues>
+          <attvalue for="1" value="0.020467836257309944" />
+          <attvalue for="2" value="3.0865497076023396" />
+          <attvalue for="3" value="0.001417158741978834" />
+          <attvalue for="4" value="1.0141256581812423" />
+          <attvalue for="5" value="0.7531526623995642" />
+        </attvalues>
+      </edge>
+      <edge source="('html5',)" target="('javascript',)" id="29" weight="0.47027027027027024">
+        <attvalues>
+          <attvalue for="1" value="0.47027027027027024" />
+          <attvalue for="2" value="4.5915193388877595" />
+          <attvalue for="3" value="0.002911441071959595" />
+          <attvalue for="4" value="1.69440840424473" />
+          <attvalue for="5" value="0.7884475546521017" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'html', 'jquery')" target="('css',)" id="30" weight="0.37914691943127965">
+        <attvalues>
+          <attvalue for="1" value="0.37914691943127965" />
+          <attvalue for="2" value="10.91401489505755" />
+          <attvalue for="3" value="0.0031090089495210155" />
+          <attvalue for="4" value="1.5547326350084292" />
+          <attvalue for="5" value="0.9166493977464059" />
+        </attvalues>
+      </edge>
+      <edge source="('swing',)" target="('java',)" id="31" weight="0.983050847457627">
+        <attvalues>
+          <attvalue for="1" value="0.983050847457627" />
+          <attvalue for="2" value="11.084336955366414" />
+          <attvalue for="3" value="0.004515050151308001" />
+          <attvalue for="4" value="53.767391118336405" />
+          <attvalue for="5" value="0.9143988054992112" />
+        </attvalues>
+      </edge>
+      <edge source="('html', 'jquery')" target="('javascript',)" id="32" weight="0.6986754966887416">
+        <attvalues>
+          <attvalue for="1" value="0.6986754966887416" />
+          <attvalue for="2" value="6.821571035757162" />
+          <attvalue for="3" value="0.007703803748685196" />
+          <attvalue for="4" value="2.978777020019425" />
+          <attvalue for="5" value="0.8645768285227863" />
+        </attvalues>
+      </edge>
+      <edge source="('html', 'jquery')" target="('css',)" id="33" weight="0.3841059602649007">
+        <attvalues>
+          <attvalue for="1" value="0.3841059602649007" />
+          <attvalue for="2" value="11.056764427625355" />
+          <attvalue for="3" value="0.00451393363838126" />
+          <attvalue for="4" value="1.5672509938899115" />
+          <attvalue for="5" value="0.9214632454923716" />
+        </attvalues>
+      </edge>
+      <edge source="('html', 'jquery')" target="('javascript', 'css')" id="34" weight="0.2649006622516556">
+        <attvalues>
+          <attvalue for="1" value="0.2649006622516556" />
+          <attvalue for="2" value="29.625780284546405" />
+          <attvalue for="3" value="0.0033070783427249398" />
+          <attvalue for="4" value="1.3481966179407783" />
+          <attvalue for="5" value="0.9788932472260748" />
+        </attvalues>
+      </edge>
+      <edge source="('asp.net',)" target="('c#',)" id="35" weight="0.46062992125984253">
+        <attvalues>
+          <attvalue for="1" value="0.46062992125984253" />
+          <attvalue for="2" value="5.945203633090866" />
+          <attvalue for="3" value="0.008327224299298268" />
+          <attvalue for="4" value="1.7103669371233494" />
+          <attvalue for="5" value="0.8502767143543842" />
+        </attvalues>
+      </edge>
+      <edge source="('asp.net',)" target="('javascript',)" id="36" weight="0.1062992125984252">
+        <attvalues>
+          <attvalue for="1" value="0.1062992125984252" />
+          <attvalue for="2" value="1.0378603990290687" />
+          <attvalue for="3" value="8.427659212931335e-05" />
+          <attvalue for="4" value="1.0043389450758382" />
+          <attvalue for="5" value="0.0372897169013675" />
+        </attvalues>
+      </edge>
+      <edge source="('asp.net',)" target="('asp.net-mvc',)" id="37" weight="0.10039370078740158">
+        <attvalues>
+          <attvalue for="1" value="0.10039370078740158" />
+          <attvalue for="2" value="8.956497565666886" />
+          <attvalue for="3" value="0.0019382993871061528" />
+          <attvalue for="4" value="1.0991374395497138" />
+          <attvalue for="5" value="0.9080851268172798" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery', 'php')" target="('javascript',)" id="38" weight="0.5454545454545454">
+        <attvalues>
+          <attvalue for="1" value="0.5454545454545454" />
+          <attvalue for="2" value="5.325586694007746" />
+          <attvalue for="3" value="0.0025019407374120544" />
+          <attvalue for="4" value="1.9746727132711557" />
+          <attvalue for="5" value="0.8168402030806299" />
+        </attvalues>
+      </edge>
+      <edge source="('java',)" target="('android',)" id="39" weight="0.12928123492522914">
+        <attvalues>
+          <attvalue for="1" value="0.12928123492522914" />
+          <attvalue for="2" value="1.835856370074305" />
+          <attvalue for="3" value="0.005220290965611555" />
+          <attvalue for="4" value="1.0676005989087005" />
+          <attvalue for="5" value="0.49960411080132877" />
+        </attvalues>
+      </edge>
+      <edge source="('java',)" target="('swing',)" id="40" weight="0.05595754944524843">
+        <attvalues>
+          <attvalue for="1" value="0.05595754944524843" />
+          <attvalue for="2" value="11.084336955366414" />
+          <attvalue for="3" value="0.004515050151308001" />
+          <attvalue for="4" value="1.0539268176988623" />
+          <attvalue for="5" value="0.998322079746944" />
+        </attvalues>
+      </edge>
+      <edge source="('java',)" target="('spring',)" id="41" weight="0.05499276410998553">
+        <attvalues>
+          <attvalue for="1" value="0.05499276410998553" />
+          <attvalue for="2" value="6.837238661206392" />
+          <attvalue for="3" value="0.004163883041310048" />
+          <attvalue for="4" value="1.0496817775434308" />
+          <attvalue for="5" value="0.9368277743323146" />
+        </attvalues>
+      </edge>
+      <edge source="('java',)" target="('eclipse',)" id="42" weight="0.039556198745779064">
+        <attvalues>
+          <attvalue for="1" value="0.039556198745779064" />
+          <attvalue for="2" value="5.742773847725713" />
+          <attvalue for="3" value="0.0028972869826768225" />
+          <attvalue for="4" value="1.0340136544113954" />
+          <attvalue for="5" value="0.9062410902499711" />
+        </attvalues>
+      </edge>
+      <edge source="('java',)" target="('hibernate',)" id="43" weight="0.031837916063675836">
+        <attvalues>
+          <attvalue for="1" value="0.031837916063675836" />
+          <attvalue for="2" value="6.8905504636329535" />
+          <attvalue for="3" value="0.0024138643406337" />
+          <attvalue for="4" value="1.0281124390124425" />
+          <attvalue for="5" value="0.9380694888417529" />
+        </attvalues>
+      </edge>
+      <edge source="('java',)" target="('arrays',)" id="44" weight="0.028461167390255667">
+        <attvalues>
+          <attvalue for="1" value="0.028461167390255667" />
+          <attvalue for="2" value="1.7692854430314786" />
+          <attvalue for="3" value="0.0010975102427980726" />
+          <attvalue for="4" value="1.0127374401266942" />
+          <attvalue for="5" value="0.4771145462256487" />
+        </attvalues>
+      </edge>
+      <edge source="('java',)" target="('xml',)" id="45" weight="0.02604920405209841">
+        <attvalues>
+          <attvalue for="1" value="0.02604920405209841" />
+          <attvalue for="2" value="2.2060655634556094" />
+          <attvalue for="3" value="0.0012630287083148343" />
+          <attvalue for="4" value="1.0146221065023036" />
+          <attvalue for="5" value="0.5999092374379918" />
+        </attvalues>
+      </edge>
+      <edge source="('java',)" target="('multithreading',)" id="46" weight="0.02363724071394115">
+        <attvalues>
+          <attvalue for="1" value="0.02363724071394115" />
+          <attvalue for="2" value="3.3895513156298187" />
+          <attvalue for="3" value="0.0014778732506557832" />
+          <attvalue for="4" value="1.0170670994865751" />
+          <attvalue for="5" value="0.7735834956488582" />
+        </attvalues>
+      </edge>
+      <edge source="('multithreading',)" target="('java',)" id="47" weight="0.3006134969325154">
+        <attvalues>
+          <attvalue for="1" value="0.3006134969325154" />
+          <attvalue for="2" value="3.3895513156298187" />
+          <attvalue for="3" value="0.0014778732506557832" />
+          <attvalue for="4" value="1.303015871586213" />
+          <attvalue for="5" value="0.7099264159586544" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'ajax')" target="('jquery',)" id="48" weight="0.5447154471544715">
+        <attvalues>
+          <attvalue for="1" value="0.5447154471544715" />
+          <attvalue for="2" value="9.087922099777742" />
+          <attvalue for="3" value="0.00255102154746217" />
+          <attvalue for="4" value="2.0647781723282277" />
+          <attvalue for="5" value="0.8946718388616891" />
+        </attvalues>
+      </edge>
+      <edge source="('ajax',)" target="('jquery',)" id="49" weight="0.536231884057971">
+        <attvalues>
+          <attvalue for="1" value="0.536231884057971" />
+          <attvalue for="2" value="8.946384052798724" />
+          <attvalue for="3" value="0.005624069628996811" />
+          <attvalue for="4" value="2.0270078399075895" />
+          <attvalue for="5" value="0.8988364500962994" />
+        </attvalues>
+      </edge>
+      <edge source="('ajax',)" target="('javascript',)" id="50" weight="0.44565217391304346">
+        <attvalues>
+          <attvalue for="1" value="0.44565217391304346" />
+          <attvalue for="2" value="4.351158693836039" />
+          <attvalue for="3" value="0.004052865049410748" />
+          <attvalue for="4" value="1.6191612265681492" />
+          <attvalue for="5" value="0.7793790614328343" />
+        </attvalues>
+      </edge>
+      <edge source="('ajax',)" target="('php',)" id="51" weight="0.25724637681159424">
+        <attvalues>
+          <attvalue for="1" value="0.25724637681159424" />
+          <attvalue for="2" value="3.3780206806709008" />
+          <attvalue for="3" value="0.002138349217993248" />
+          <attvalue for="4" value="1.2438135347384105" />
+          <attvalue for="5" value="0.7123804390112429" />
+        </attvalues>
+      </edge>
+      <edge source="('ajax',)" target="('javascript', 'jquery')" id="52" weight="0.2427536231884058">
+        <attvalues>
+          <attvalue for="1" value="0.2427536231884058" />
+          <attvalue for="2" value="7.575598382384241" />
+          <attvalue for="3" value="0.0024880557094411355" />
+          <attvalue for="4" value="1.278257483983144" />
+          <attvalue for="5" value="0.8783690000943416" />
+        </attvalues>
+      </edge>
+      <edge source="('android',)" target="('java',)" id="53" weight="0.16281895504252733">
+        <attvalues>
+          <attvalue for="1" value="0.16281895504252733" />
+          <attvalue for="2" value="1.8358563700743047" />
+          <attvalue for="3" value="0.005220290965611555" />
+          <attvalue for="4" value="1.0885479543034866" />
+          <attvalue for="5" value="0.489785859912514" />
+        </attvalues>
+      </edge>
+      <edge source="('android',)" target="('android-layout',)" id="54" weight="0.04495747266099635">
+        <attvalues>
+          <attvalue for="1" value="0.04495747266099635" />
+          <attvalue for="2" value="14.011146213041718" />
+          <attvalue for="3" value="0.002939954249619886" />
+          <attvalue for="4" value="1.0437140525640045" />
+          <attvalue for="5" value="0.9989762866695857" />
+        </attvalues>
+      </edge>
+      <edge source="('android',)" target="('android-fragments',)" id="55" weight="0.03766707168894289">
+        <attvalues>
+          <attvalue for="1" value="0.03766707168894289" />
+          <attvalue for="2" value="13.756720838396111" />
+          <attvalue for="3" value="0.0024597036024981453" />
+          <attvalue for="4" value="1.0362961565686817" />
+          <attvalue for="5" value="0.997556297211269" />
+        </attvalues>
+      </edge>
+      <edge source="('android',)" target="('sqlite',)" id="56" weight="0.029769137302551645">
+        <attvalues>
+          <attvalue for="1" value="0.029769137302551645" />
+          <attvalue for="2" value="7.173441394946826" />
+          <attvalue for="3" value="0.0018041091761043188" />
+          <attvalue for="4" value="1.026405289844873" />
+          <attvalue for="5" value="0.9257912295993508" />
+        </attvalues>
+      </edge>
+      <edge source="('android',)" target="('xml',)" id="57" weight="0.029769137302551645">
+        <attvalues>
+          <attvalue for="1" value="0.029769137302551645" />
+          <attvalue for="2" value="2.5211007801081236" />
+          <attvalue for="3" value="0.0012648261110919821" />
+          <attvalue for="4" value="1.0185122388983494" />
+          <attvalue for="5" value="0.6490543566469298" />
+        </attvalues>
+      </edge>
+      <edge source="('android',)" target="('listview',)" id="58" weight="0.029161603888213854">
+        <attvalues>
+          <attvalue for="1" value="0.029161603888213854" />
+          <attvalue for="2" value="10.327626201259251" />
+          <attvalue for="3" value="0.0018547219883178485" />
+          <attvalue for="4" value="1.0271290811983365" />
+          <attvalue for="5" value="0.9715919550810015" />
+        </attvalues>
+      </edge>
+      <edge source="('json',)" target="('javascript',)" id="59" weight="0.21637426900584794">
+        <attvalues>
+          <attvalue for="1" value="0.21637426900584794" />
+          <attvalue for="2" value="2.112586534562527" />
+          <attvalue for="3" value="0.0016673162087388344" />
+          <attvalue for="4" value="1.1454173472502294" />
+          <attvalue for="5" value="0.5344667348835462" />
+        </attvalues>
+      </edge>
+      <edge source="('android-layout',)" target="('android',)" id="60" weight="0.9866666666666667">
+        <attvalues>
+          <attvalue for="1" value="0.9866666666666667" />
+          <attvalue for="2" value="14.011146213041718" />
+          <attvalue for="3" value="0.002939954249619886" />
+          <attvalue for="4" value="69.71849063061535" />
+          <attvalue for="5" value="0.9316175267932855" />
+        </attvalues>
+      </edge>
+      <edge source="('oracle',)" target="('sql',)" id="61" weight="0.40540540540540543">
+        <attvalues>
+          <attvalue for="1" value="0.40540540540540543" />
+          <attvalue for="2" value="14.852579852579852" />
+          <attvalue for="3" value="0.0023941258563681604" />
+          <attvalue for="4" value="1.6359124746221523" />
+          <attvalue for="5" value="0.938614770802836" />
+        </attvalues>
+      </edge>
+      <edge source="('html',)" target="('css',)" id="62" weight="0.4230769230769231">
+        <attvalues>
+          <attvalue for="1" value="0.4230769230769231" />
+          <attvalue for="2" value="12.178571428571427" />
+          <attvalue for="3" value="0.019438471751077154" />
+          <attvalue for="4" value="1.6731182795698927" />
+          <attvalue for="5" value="0.9662550564189908" />
+        </attvalues>
+      </edge>
+      <edge source="('html',)" target="('javascript',)" id="63" weight="0.4042735042735042">
+        <attvalues>
+          <attvalue for="1" value="0.4042735042735042" />
+          <attvalue for="2" value="3.947154924347906" />
+          <attvalue for="3" value="0.015109388724986825" />
+          <attvalue for="4" value="1.506695627055727" />
+          <attvalue for="5" value="0.7859965044486585" />
+        </attvalues>
+      </edge>
+      <edge source="('html',)" target="('jquery',)" id="64" weight="0.2581196581196581">
+        <attvalues>
+          <attvalue for="1" value="0.2581196581196581" />
+          <attvalue for="2" value="4.30641605202633" />
+          <attvalue for="3" value="0.009920085568964994" />
+          <attvalue for="4" value="1.2671337328214145" />
+          <attvalue for="5" value="0.8082455759418086" />
+        </attvalues>
+      </edge>
+      <edge source="('html',)" target="('javascript', 'jquery')" id="65" weight="0.1803418803418803">
+        <attvalues>
+          <attvalue for="1" value="0.1803418803418803" />
+          <attvalue for="2" value="5.627918706423378" />
+          <attvalue for="3" value="0.007423134363091131" />
+          <attvalue for="4" value="1.1809263217965507" />
+          <attvalue for="5" value="0.8656448050434532" />
+        </attvalues>
+      </edge>
+      <edge source="('html',)" target="('php',)" id="66" weight="0.13247863247863248">
+        <attvalues>
+          <attvalue for="1" value="0.13247863247863248" />
+          <attvalue for="2" value="1.7396379525593009" />
+          <attvalue for="3" value="0.00281941478190926" />
+          <attvalue for="4" value="1.0649270946919673" />
+          <attvalue for="5" value="0.4475712019339729" />
+        </attvalues>
+      </edge>
+      <edge source="('html',)" target="('javascript', 'css')" id="67" weight="0.11965811965811965">
+        <attvalues>
+          <attvalue for="1" value="0.11965811965811965" />
+          <attvalue for="2" value="13.382243487506646" />
+          <attvalue for="3" value="0.005541985795041656" />
+          <attvalue for="4" value="1.1257654135663144" />
+          <attvalue for="5" value="0.974029775844764" />
+        </attvalues>
+      </edge>
+      <edge source="('html',)" target="('css', 'jquery')" id="68" weight="0.09914529914529914">
+        <attvalues>
+          <attvalue for="1" value="0.09914529914529914" />
+          <attvalue for="2" value="12.803437691835482" />
+          <attvalue for="3" value="0.004575166135842254" />
+          <attvalue for="4" value="1.1014610372477958" />
+          <attvalue for="5" value="0.9704736332068157" />
+        </attvalues>
+      </edge>
+      <edge source="('html',)" target="('javascript', 'css', 'jquery')" id="69" weight="0.06837606837606837">
+        <attvalues>
+          <attvalue for="1" value="0.06837606837606837" />
+          <attvalue for="2" value="13.660018993352326" />
+          <attvalue for="3" value="0.0031720498318535194" />
+          <attvalue for="4" value="1.0680215529997652" />
+          <attvalue for="5" value="0.9756293911007027" />
+        </attvalues>
+      </edge>
+      <edge source="('html',)" target="('twitter-bootstrap',)" id="70" weight="0.052991452991452984">
+        <attvalues>
+          <attvalue for="1" value="0.052991452991452984" />
+          <attvalue for="2" value="8.148830409356723" />
+          <attvalue for="3" value="0.0023270106170275805" />
+          <attvalue for="4" value="1.0490898431068616" />
+          <attvalue for="5" value="0.9235098587293193" />
+        </attvalues>
+      </edge>
+      <edge source="('html',)" target="('javascript', 'php')" id="71" weight="0.041880341880341884">
+        <attvalues>
+          <attvalue for="1" value="0.041880341880341884" />
+          <attvalue for="2" value="5.932794612794614" />
+          <attvalue for="3" value="0.0017429974816812995" />
+          <attvalue for="4" value="1.0363432855814618" />
+          <attvalue for="5" value="0.8752568943268175" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'html')" target="('jquery',)" id="72" weight="0.4460887949260042">
+        <attvalues>
+          <attvalue for="1" value="0.4460887949260042" />
+          <attvalue for="2" value="7.442455026838274" />
+          <attvalue for="3" value="0.007814201252253076" />
+          <attvalue for="4" value="1.697134122405204" />
+          <attvalue for="5" value="0.8835146791950764" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'html')" target="('css',)" id="73" weight="0.2959830866807611">
+        <attvalues>
+          <attvalue for="1" value="0.2959830866807611" />
+          <attvalue for="2" value="8.520084566596195" />
+          <attvalue for="3" value="0.0052865679050825495" />
+          <attvalue for="4" value="1.3710757904306292" />
+          <attvalue for="5" value="0.9008602244443474" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'html')" target="('css', 'jquery')" id="74" weight="0.16913319238900634">
+        <attvalues>
+          <attvalue for="1" value="0.16913319238900634" />
+          <attvalue for="2" value="21.841542756357097" />
+          <attvalue for="3" value="0.0032659046406150255" />
+          <attvalue for="4" value="1.1942423793123045" />
+          <attvalue for="5" value="0.9739241736168728" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'html')" target="('php',)" id="75" weight="0.10359408033826639">
+        <attvalues>
+          <attvalue for="1" value="0.10359408033826639" />
+          <attvalue for="2" value="1.3603415920374373" />
+          <attvalue for="3" value="0.0005553022799874856" />
+          <attvalue for="4" value="1.0306123478594988" />
+          <attvalue for="5" value="0.2703616008212814" />
+        </attvalues>
+      </edge>
+      <edge source="('xml',)" target="('java',)" id="76" weight="0.1956521739130435">
+        <attvalues>
+          <attvalue for="1" value="0.1956521739130435" />
+          <attvalue for="2" value="2.2060655634556094" />
+          <attvalue for="3" value="0.0012630287083148343" />
+          <attvalue for="4" value="1.1329821307574366" />
+          <attvalue for="5" value="0.5532369324905475" />
+        </attvalues>
+      </edge>
+      <edge source="('xml',)" target="('android',)" id="77" weight="0.17753623188405798">
+        <attvalues>
+          <attvalue for="1" value="0.17753623188405798" />
+          <attvalue for="2" value="2.5211007801081236" />
+          <attvalue for="3" value="0.0012648261110919821" />
+          <attvalue for="4" value="1.1302380859941146" />
+          <attvalue for="5" value="0.6105573236308118" />
+        </attvalues>
+      </edge>
+      <edge source="('html', 'php')" target="('javascript',)" id="78" weight="0.31612903225806455">
+        <attvalues>
+          <attvalue for="1" value="0.31612903225806455" />
+          <attvalue for="2" value="3.086549707602339" />
+          <attvalue for="3" value="0.001417158741978834" />
+          <attvalue for="4" value="1.312496872028427" />
+          <attvalue for="5" value="0.6805264161739462" />
+        </attvalues>
+      </edge>
+      <edge source="('regex',)" target="('php',)" id="79" weight="0.18021201413427562">
+        <attvalues>
+          <attvalue for="1" value="0.18021201413427562" />
+          <attvalue for="2" value="2.3664469766149203" />
+          <attvalue for="3" value="0.0012598914900255969" />
+          <attvalue for="4" value="1.1269340676200787" />
+          <attvalue for="5" value="0.5845024077796204" />
+        </attvalues>
+      </edge>
+      <edge source="('css', 'html', 'jquery')" target="('javascript',)" id="80" weight="0.689655172413793">
+        <attvalues>
+          <attvalue for="1" value="0.689655172413793" />
+          <attvalue for="2" value="6.733500417710943" />
+          <attvalue for="3" value="0.002914311059286038" />
+          <attvalue for="4" value="2.8921974083264397" />
+          <attvalue for="5" value="0.8557356608478802" />
+        </attvalues>
+      </edge>
+      <edge source="('database',)" target="('mysql',)" id="81" weight="0.29218106995884774">
+        <attvalues>
+          <attvalue for="1" value="0.29218106995884774" />
+          <attvalue for="2" value="8.48377680648212" />
+          <attvalue for="3" value="0.0026795193728866838" />
+          <attvalue for="4" value="1.3641342198944963" />
+          <attvalue for="5" value="0.8913950609541126" />
+        </attvalues>
+      </edge>
+      <edge source="('database',)" target="('sql',)" id="82" weight="0.2674897119341564">
+        <attvalues>
+          <attvalue for="1" value="0.2674897119341564" />
+          <attvalue for="2" value="9.79985035540591" />
+          <attvalue for="3" value="0.0024971012944968018" />
+          <attvalue for="4" value="1.3279058744807204" />
+          <attvalue for="5" value="0.9073910137245057" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery',)" target="('javascript',)" id="83" weight="0.5346181299072091">
+        <attvalues>
+          <attvalue for="1" value="0.5346181299072091" />
+          <attvalue for="2" value="5.219784531516753" />
+          <attvalue for="3" value="0.025905171855536643" />
+          <attvalue for="4" value="1.9286924646492536" />
+          <attvalue for="5" value="0.8599662032120133" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery',)" target="('html',)" id="84" weight="0.21556031406138473">
+        <attvalues>
+          <attvalue for="1" value="0.21556031406138473" />
+          <attvalue for="2" value="4.30641605202633" />
+          <attvalue for="3" value="0.009920085568964994" />
+          <attvalue for="4" value="1.210984604266595" />
+          <attvalue for="5" value="0.8167425826337742" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery',)" target="('javascript', 'html')" id="85" weight="0.1506067094932191">
+        <attvalues>
+          <attvalue for="1" value="0.1506067094932191" />
+          <attvalue for="2" value="7.442455026838274" />
+          <attvalue for="3" value="0.007814201252253076" />
+          <attvalue for="4" value="1.1534866723278683" />
+          <attvalue for="5" value="0.9208287292698513" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery',)" target="('css',)" id="86" weight="0.12919343326195573">
+        <attvalues>
+          <attvalue for="1" value="0.12919343326195573" />
+          <attvalue for="2" value="3.718925257469154" />
+          <attvalue for="3" value="0.005661419731919901" />
+          <attvalue for="4" value="1.1084672334540129" />
+          <attvalue for="5" value="0.7777204218235689" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery',)" target="('ajax',)" id="87" weight="0.10563882940756603">
+        <attvalues>
+          <attvalue for="1" value="0.10563882940756603" />
+          <attvalue for="2" value="8.946384052798726" />
+          <attvalue for="3" value="0.005624069628996811" />
+          <attvalue for="4" value="1.1049138096633453" />
+          <attvalue for="5" value="0.9448561563884914" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery',)" target="('php',)" id="88" weight="0.09421841541755889">
+        <attvalues>
+          <attvalue for="1" value="0.09421841541755889" />
+          <attvalue for="2" value="1.2372254168370906" />
+          <attvalue for="3" value="0.0010828125398444112" />
+          <attvalue for="4" value="1.0199445707693642" />
+          <attvalue for="5" value="0.20396519695659548" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery',)" target="('javascript', 'css')" id="89" weight="0.0835117773019272">
+        <attvalues>
+          <attvalue for="1" value="0.0835117773019272" />
+          <attvalue for="2" value="9.339733409833716" />
+          <attvalue for="3" value="0.004469619057283988" />
+          <attvalue for="4" value="1.0813651681035483" />
+          <attvalue for="5" value="0.9498638772292801" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery',)" target="('css', 'html')" id="90" weight="0.08279800142755175">
+        <attvalues>
+          <attvalue for="1" value="0.08279800142755175" />
+          <attvalue for="2" value="3.909738354277969" />
+          <attvalue for="3" value="0.00369344123480209" />
+          <attvalue for="4" value="1.06718326492005" />
+          <attvalue for="5" value="0.7916804636411143" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery',)" target="('javascript', 'css', 'html')" id="91" weight="0.05710206995003569">
+        <attvalues>
+          <attvalue for="1" value="0.05710206995003569" />
+          <attvalue for="2" value="9.533598450086673" />
+          <attvalue for="3" value="0.003063601650034785" />
+          <attvalue for="4" value="1.0542078917243853" />
+          <attvalue for="5" value="0.952179948118145" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery',)" target="('javascript', 'php')" id="92" weight="0.051391862955032126">
+        <attvalues>
+          <attvalue for="1" value="0.051391862955032126" />
+          <attvalue for="2" value="7.28020245279346" />
+          <attvalue for="3" value="0.002657233042729301" />
+          <attvalue for="4" value="1.0467345110163693" />
+          <attvalue for="5" value="0.9176432439812496" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery',)" target="('javascript', 'ajax')" id="93" weight="0.047822983583154885">
+        <attvalues>
+          <attvalue for="1" value="0.047822983583154885" />
+          <attvalue for="2" value="9.087922099777742" />
+          <attvalue for="3" value="0.00255102154746217" />
+          <attvalue for="4" value="1.04469833407075" />
+          <attvalue for="5" value="0.9467080018829078" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'jquery')" target="('html',)" id="94" weight="0.28170894526034707">
+        <attvalues>
+          <attvalue for="1" value="0.28170894526034707" />
+          <attvalue for="2" value="5.627918706423378" />
+          <attvalue for="3" value="0.007423134363091131" />
+          <attvalue for="4" value="1.322506213016528" />
+          <attvalue for="5" value="0.8495371160744679" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'jquery')" target="('css',)" id="95" weight="0.1562082777036048">
+        <attvalues>
+          <attvalue for="1" value="0.1562082777036048" />
+          <attvalue for="2" value="4.49656685103948" />
+          <attvalue for="3" value="0.0038923654010171423" />
+          <attvalue for="4" value="1.1439559317774917" />
+          <attvalue for="5" value="0.8033508051187609" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'jquery')" target="('css', 'html')" id="96" weight="0.10680907877169558">
+        <attvalues>
+          <attvalue for="1" value="0.10680907877169558" />
+          <attvalue for="2" value="5.043546277191137" />
+          <attvalue for="3" value="0.002743995248882409" />
+          <attvalue for="4" value="1.095871666588008" />
+          <attvalue for="5" value="0.828267955801105" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'jquery')" target="('php',)" id="97" weight="0.09612817089452604">
+        <attvalues>
+          <attvalue for="1" value="0.09612817089452604" />
+          <attvalue for="2" value="1.2623032957801412" />
+          <attvalue for="3" value="0.0006400877091555426" />
+          <attvalue for="4" value="1.0220995718076833" />
+          <attvalue for="5" value="0.21467648864333938" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'jquery')" target="('ajax',)" id="98" weight="0.08945260347129505">
+        <attvalues>
+          <attvalue for="1" value="0.08945260347129505" />
+          <attvalue for="2" value="7.575598382384241" />
+          <attvalue for="3" value="0.0024880557094411355" />
+          <attvalue for="4" value="1.085272454769028" />
+          <attvalue for="5" value="0.8967322503504576" />
+        </attvalues>
+      </edge>
+      <edge source="('.net',)" target="('c#',)" id="99" weight="0.6184210526315789">
+        <attvalues>
+          <attvalue for="1" value="0.6184210526315789" />
+          <attvalue for="2" value="7.981763492109621" />
+          <attvalue for="3" value="0.00879429643318634" />
+          <attvalue for="4" value="2.4176405850296376" />
+          <attvalue for="5" value="0.889169977737023" />
+        </attvalues>
+      </edge>
+      <edge source="('spring',)" target="('java',)" id="100" weight="0.6063829787234042">
+        <attvalues>
+          <attvalue for="1" value="0.6063829787234042" />
+          <attvalue for="2" value="6.837238661206391" />
+          <attvalue for="3" value="0.004163883041310048" />
+          <attvalue for="4" value="2.3152243541565007" />
+          <attvalue for="5" value="0.8606645571056946" />
+        </attvalues>
+      </edge>
+      <edge source="('android-fragments',)" target="('android',)" id="101" weight="0.96875">
+        <attvalues>
+          <attvalue for="1" value="0.96875" />
+          <attvalue for="2" value="13.756720838396111" />
+          <attvalue for="3" value="0.0024597036024981453" />
+          <attvalue for="4" value="29.746556002395824" />
+          <attvalue for="5" value="0.9298542782413751" />
+        </attvalues>
+      </edge>
+      <edge source="('eclipse',)" target="('java',)" id="102" weight="0.5093167701863354">
+        <attvalues>
+          <attvalue for="1" value="0.5093167701863354" />
+          <attvalue for="2" value="5.742773847725712" />
+          <attvalue for="3" value="0.0028972869826768225" />
+          <attvalue for="4" value="1.8572302016846587" />
+          <attvalue for="5" value="0.8315961514416333" />
+        </attvalues>
+      </edge>
+      <edge source="('c#',)" target="('.net',)" id="103" weight="0.12976256212037549">
+        <attvalues>
+          <attvalue for="1" value="0.12976256212037549" />
+          <attvalue for="2" value="7.981763492109622" />
+          <attvalue for="3" value="0.00879429643318634" />
+          <attvalue for="4" value="1.1304301299678283" />
+          <attvalue for="5" value="0.9481785682922186" />
+        </attvalues>
+      </edge>
+      <edge source="('c#',)" target="('asp.net',)" id="104" weight="0.12921038100496962">
+        <attvalues>
+          <attvalue for="1" value="0.12921038100496962" />
+          <attvalue for="2" value="5.945203633090866" />
+          <attvalue for="3" value="0.008327224299298268" />
+          <attvalue for="4" value="1.1234245661203537" />
+          <attvalue for="5" value="0.901656882179073" />
+        </attvalues>
+      </edge>
+      <edge source="('c#',)" target="('asp.net-mvc',)" id="105" weight="0.061844284925455545">
+        <attvalues>
+          <attvalue for="1" value="0.061844284925455545" />
+          <attvalue for="2" value="5.5173599841511365" />
+          <attvalue for="3" value="0.003923181157795205" />
+          <attvalue for="4" value="1.0539731820967069" />
+          <attvalue for="5" value="0.8875181362254128" />
+        </attvalues>
+      </edge>
+      <edge source="('c#',)" target="('wpf',)" id="106" weight="0.06073992269464385">
+        <attvalues>
+          <attvalue for="1" value="0.06073992269464385" />
+          <attvalue for="2" value="7.511825148489976" />
+          <attvalue for="3" value="0.004079593636737314" />
+          <attvalue for="4" value="1.0560590368401517" />
+          <attvalue for="5" value="0.9396824526862092" />
+        </attvalues>
+      </edge>
+      <edge source="('c#',)" target="('winforms',)" id="107" weight="0.04307012700165654">
+        <attvalues>
+          <attvalue for="1" value="0.04307012700165654" />
+          <attvalue for="2" value="10.1689004902699" />
+          <attvalue for="3" value="0.003008879704181035" />
+          <attvalue for="4" value="1.040582547146871" />
+          <attvalue for="5" value="0.9773882612309548" />
+        </attvalues>
+      </edge>
+      <edge source="('c#',)" target="('linq',)" id="108" weight="0.04307012700165654">
+        <attvalues>
+          <attvalue for="1" value="0.04307012700165654" />
+          <attvalue for="2" value="10.272664780986938" />
+          <attvalue for="3" value="0.003012194466329115" />
+          <attvalue for="4" value="1.040627255312162" />
+          <attvalue for="5" value="0.9784650106961474" />
+        </attvalues>
+      </edge>
+      <edge source="('c#',)" target="('entity-framework',)" id="109" weight="0.04086140254003313">
+        <attvalues>
+          <attvalue for="1" value="0.04086140254003313" />
+          <attvalue for="2" value="7.764995308705157" />
+          <attvalue for="3" value="0.002758195096891687" />
+          <attvalue for="4" value="1.0371157468018113" />
+          <attvalue for="5" value="0.9443873451896454" />
+        </attvalues>
+      </edge>
+      <edge source="('c#',)" target="('xaml',)" id="110" weight="0.027609055770292653">
+        <attvalues>
+          <attvalue for="1" value="0.027609055770292653" />
+          <attvalue for="2" value="8.380961942530135" />
+          <attvalue for="3" value="0.0018838922612907623" />
+          <attvalue for="4" value="1.0250051662211301" />
+          <attvalue for="5" value="0.9546473125260864" />
+        </attvalues>
+      </edge>
+      <edge source="('codeigniter',)" target="('php',)" id="111" weight="0.6626506024096386">
+        <attvalues>
+          <attvalue for="1" value="0.6626506024096386" />
+          <attvalue for="2" value="8.701570326248815" />
+          <attvalue for="3" value="0.002082626071203551" />
+          <attvalue for="4" value="2.738546492439707" />
+          <attvalue for="5" value="0.8882322863689057" />
+        </attvalues>
+      </edge>
+      <edge source="('winforms',)" target="('c#',)" id="112" weight="0.787878787878788">
+        <attvalues>
+          <attvalue for="1" value="0.787878787878788" />
+          <attvalue for="2" value="10.1689004902699" />
+          <attvalue for="3" value="0.003008879704181035" />
+          <attvalue for="4" value="4.3490263907394064" />
+          <attvalue for="5" value="0.9054961579773609" />
+        </attvalues>
+      </edge>
+      <edge source="('wordpress',)" target="('php',)" id="113" weight="0.457286432160804">
+        <attvalues>
+          <attvalue for="1" value="0.457286432160804" />
+          <attvalue for="2" value="6.004838800745299" />
+          <attvalue for="3" value="0.003244868438865781" />
+          <attvalue for="4" value="1.7022736563893404" />
+          <attvalue for="5" value="0.8406244887798286" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'css', 'html')" target="('jquery',)" id="114" weight="0.5714285714285714">
+        <attvalues>
+          <attvalue for="1" value="0.5714285714285714" />
+          <attvalue for="2" value="9.533598450086672" />
+          <attvalue for="3" value="0.003063601650034785" />
+          <attvalue for="4" value="2.1934770827985512" />
+          <attvalue for="5" value="0.9005014203322717" />
+        </attvalues>
+      </edge>
+      <edge source="('twitter-bootstrap',)" target="('css',)" id="115" weight="0.4736842105263158">
+        <attvalues>
+          <attvalue for="1" value="0.4736842105263158" />
+          <attvalue for="2" value="13.635338345864662" />
+          <attvalue for="3" value="0.002854436680827736" />
+          <attvalue for="4" value="1.8339950372208438" />
+          <attvalue for="5" value="0.9327266289629567" />
+        </attvalues>
+      </edge>
+      <edge source="('twitter-bootstrap',)" target="('html',)" id="116" weight="0.40789473684210525">
+        <attvalues>
+          <attvalue for="1" value="0.40789473684210525" />
+          <attvalue for="2" value="8.148830409356725" />
+          <attvalue for="3" value="0.0023270106170275805" />
+          <attvalue for="4" value="1.6043505129155853" />
+          <attvalue for="5" value="0.8830252735865045" />
+        </attvalues>
+      </edge>
+      <edge source="('sqlite',)" target="('android',)" id="117" weight="0.5051546391752577">
+        <attvalues>
+          <attvalue for="1" value="0.5051546391752577" />
+          <attvalue for="2" value="7.173441394946825" />
+          <attvalue for="3" value="0.0018041091761043188" />
+          <attvalue for="4" value="1.878525997547132" />
+          <attvalue for="5" value="0.8641831781043389" />
+        </attvalues>
+      </edge>
+      <edge source="('tsql',)" target="('sql-server',)" id="118" weight="0.6933333333333334">
+        <attvalues>
+          <attvalue for="1" value="0.6933333333333334" />
+          <attvalue for="2" value="47.6646274509804" />
+          <attvalue for="3" value="0.002178020203524712" />
+          <attvalue for="4" value="3.213436705964636" />
+          <attvalue for="5" value="0.9821715689349494" />
+        </attvalues>
+      </edge>
+      <edge source="('xaml',)" target="('c#',)" id="119" weight="0.6493506493506492">
+        <attvalues>
+          <attvalue for="1" value="0.6493506493506492" />
+          <attvalue for="2" value="8.380961942530135" />
+          <attvalue for="3" value="0.0018838922612907623" />
+          <attvalue for="4" value="2.6308925079781575" />
+          <attvalue for="5" value="0.8835927372623084" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'css', 'jquery')" target="('html',)" id="120" weight="0.6837606837606838">
+        <attvalues>
+          <attvalue for="1" value="0.6837606837606838" />
+          <attvalue for="2" value="13.660018993352326" />
+          <attvalue for="3" value="0.0031720498318535194" />
+          <attvalue for="4" value="3.0038781829660586" />
+          <attvalue for="5" value="0.9314561207378425" />
+        </attvalues>
+      </edge>
+      <edge source="('css3',)" target="('css',)" id="121" weight="0.6220472440944882">
+        <attvalues>
+          <attvalue for="1" value="0.6220472440944882" />
+          <attvalue for="2" value="17.90607424071991" />
+          <attvalue for="3" value="0.003191070819287448" />
+          <attvalue for="4" value="2.5539185277088503" />
+          <attvalue for="5" value="0.9493110040604124" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'php')" target="('jquery',)" id="122" weight="0.4363636363636364">
+        <attvalues>
+          <attvalue for="1" value="0.4363636363636364" />
+          <attvalue for="2" value="7.28020245279346" />
+          <attvalue for="3" value="0.002657233042729301" />
+          <attvalue for="4" value="1.6678512380726311" />
+          <attvalue for="5" value="0.8687739669955621" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'php')" target="('html',)" id="123" weight="0.296969696969697">
+        <attvalues>
+          <attvalue for="1" value="0.296969696969697" />
+          <attvalue for="2" value="5.932794612794613" />
+          <attvalue for="3" value="0.0017429974816812995" />
+          <attvalue for="4" value="1.3512139925587818" />
+          <attvalue for="5" value="0.8373563738908464" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('mysql',)" id="124" weight="0.18539325842696627">
+        <attvalues>
+          <attvalue for="1" value="0.18539325842696627" />
+          <attvalue for="2" value="5.38308325772908" />
+          <attvalue for="3" value="0.011495543879767036" />
+          <attvalue for="4" value="1.1853081673418446" />
+          <attvalue for="5" value="0.8813503189718805" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('javascript',)" id="125" weight="0.09269662921348314">
+        <attvalues>
+          <attvalue for="1" value="0.09269662921348314" />
+          <attvalue for="2" value="0.9050505477176085" />
+          <attvalue for="3" value="-0.0007405775332603899" />
+          <attvalue for="4" value="0.9892815732121185" />
+          <attvalue for="5" value="-0.10197801200719835" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('html',)" id="126" weight="0.08707865168539326">
+        <attvalues>
+          <attvalue for="1" value="0.08707865168539326" />
+          <attvalue for="2" value="1.7396379525593009" />
+          <attvalue for="3" value="0.00281941478190926" />
+          <attvalue for="4" value="1.040554462222983" />
+          <attvalue for="5" value="0.4602144562258931" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('jquery',)" id="127" weight="0.07415730337078652">
+        <attvalues>
+          <attvalue for="1" value="0.07415730337078652" />
+          <attvalue for="2" value="1.2372254168370906" />
+          <attvalue for="3" value="0.0010828125398444112" />
+          <attvalue for="4" value="1.0153578035839341" />
+          <attvalue for="5" value="0.2075450251332441" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('wordpress',)" id="128" weight="0.05112359550561797">
+        <attvalues>
+          <attvalue for="1" value="0.05112359550561797" />
+          <attvalue for="2" value="6.004838800745299" />
+          <attvalue for="3" value="0.003244868438865781" />
+          <attvalue for="4" value="1.0449055979218762" />
+          <attvalue for="5" value="0.9021706273720723" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('arrays',)" id="129" weight="0.04662921348314607">
+        <attvalues>
+          <attvalue for="1" value="0.04662921348314607" />
+          <attvalue for="2" value="2.8987000956251494" />
+          <attvalue for="3" value="0.002325938032478285" />
+          <attvalue for="4" value="1.0320368153041528" />
+          <attvalue for="5" value="0.7090110929966044" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('javascript', 'jquery')" id="130" weight="0.04044943820224719">
+        <attvalues>
+          <attvalue for="1" value="0.04044943820224719" />
+          <attvalue for="2" value="1.2623032957801412" />
+          <attvalue for="3" value="0.0006400877091555426" />
+          <attvalue for="4" value="1.0087596077949659" />
+          <attvalue for="5" value="0.22492616261718779" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('ajax',)" id="131" weight="0.039887640449438204">
+        <attvalues>
+          <attvalue for="1" value="0.039887640449438204" />
+          <attvalue for="2" value="3.3780206806709008" />
+          <attvalue for="3" value="0.002138349217993248" />
+          <attvalue for="4" value="1.029246211013092" />
+          <attvalue for="5" value="0.7619970075151288" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('laravel',)" id="132" weight="0.03651685393258427">
+        <attvalues>
+          <attvalue for="1" value="0.03651685393258427" />
+          <attvalue for="2" value="9.080265359789625" />
+          <attvalue for="3" value="0.0024746136259427938" />
+          <attvalue for="4" value="1.0337268914826745" />
+          <attvalue for="5" value="0.9632234025120939" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('sql',)" id="133" weight="0.03651685393258427">
+        <attvalues>
+          <attvalue for="1" value="0.03651685393258427" />
+          <attvalue for="2" value="1.3378447395301327" />
+          <attvalue for="3" value="0.0007022500239391351" />
+          <attvalue for="4" value="1.009571074087203" />
+          <attvalue for="5" value="0.27334515998033637" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('codeigniter',)" id="134" weight="0.03089887640449438">
+        <attvalues>
+          <attvalue for="1" value="0.03089887640449438" />
+          <attvalue for="2" value="8.701570326248815" />
+          <attvalue for="3" value="0.002082626071203551" />
+          <attvalue for="4" value="1.0282198850946735" />
+          <attvalue for="5" value="0.9580354812363703" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('regex',)" id="135" weight="0.028651685393258425">
+        <attvalues>
+          <attvalue for="1" value="0.028651685393258425" />
+          <attvalue for="2" value="2.3664469766149203" />
+          <attvalue for="3" value="0.0012598914900255969" />
+          <attvalue for="4" value="1.0170322172862107" />
+          <attvalue for="5" value="0.6250229275742899" />
+        </attvalues>
+      </edge>
+      <edge source="('php',)" target="('javascript', 'html')" id="136" weight="0.02752808988764045">
+        <attvalues>
+          <attvalue for="1" value="0.02752808988764045" />
+          <attvalue for="2" value="1.3603415920374373" />
+          <attvalue for="3" value="0.0005553022799874856" />
+          <attvalue for="4" value="1.007498345171824" />
+          <attvalue for="5" value="0.2867255265540504" />
+        </attvalues>
+      </edge>
+      <edge source="('wpf',)" target="('c#',)" id="137" weight="0.5820105820105821">
+        <attvalues>
+          <attvalue for="1" value="0.5820105820105821" />
+          <attvalue for="2" value="7.511825148489976" />
+          <attvalue for="3" value="0.004079593636737314" />
+          <attvalue for="4" value="2.2070433122164306" />
+          <attvalue for="5" value="0.873943184268826" />
+        </attvalues>
+      </edge>
+      <edge source="('asp.net-mvc',)" target="('c#',)" id="138" weight="0.4274809160305343">
+        <attvalues>
+          <attvalue for="1" value="0.4274809160305343" />
+          <attvalue for="2" value="5.5173599841511365" />
+          <attvalue for="3" value="0.003923181157795205" />
+          <attvalue for="4" value="1.6113362425487006" />
+          <attvalue for="5" value="0.8280353743262623" />
+        </attvalues>
+      </edge>
+      <edge source="('asp.net-mvc',)" target="('asp.net',)" id="139" weight="0.1946564885496183">
+        <attvalues>
+          <attvalue for="1" value="0.1946564885496183" />
+          <attvalue for="2" value="8.956497565666886" />
+          <attvalue for="3" value="0.0019382993871061528" />
+          <attvalue for="4" value="1.2147194780768682" />
+          <attvalue for="5" value="0.8984196309191728" />
+        </attvalues>
+      </edge>
+      <edge source="('linq',)" target="('c#',)" id="140" weight="0.7959183673469388">
+        <attvalues>
+          <attvalue for="1" value="0.7959183673469388" />
+          <attvalue for="2" value="10.27266478098694" />
+          <attvalue for="3" value="0.003012194466329115" />
+          <attvalue for="4" value="4.520351672798836" />
+          <attvalue for="5" value="0.9064547613696953" />
+        </attvalues>
+      </edge>
+      <edge source="('listview',)" target="('android',)" id="141" weight="0.7272727272727273">
+        <attvalues>
+          <attvalue for="1" value="0.7272727272727273" />
+          <attvalue for="2" value="10.327626201259251" />
+          <attvalue for="3" value="0.0018547219883178485" />
+          <attvalue for="4" value="3.4084595419411885" />
+          <attvalue for="5" value="0.9057297923459757" />
+        </attvalues>
+      </edge>
+      <edge source="('css', 'html')" target="('javascript',)" id="142" weight="0.2828282828282828">
+        <attvalues>
+          <attvalue for="1" value="0.2828282828282828" />
+          <attvalue for="2" value="2.761415322818831" />
+          <attvalue for="3" value="0.0038205425038936465" />
+          <attvalue for="4" value="1.251553128129606" />
+          <attvalue for="5" value="0.6516674679837405" />
+        </attvalues>
+      </edge>
+      <edge source="('css', 'html')" target="('jquery',)" id="143" weight="0.23434343434343435">
+        <attvalues>
+          <attvalue for="1" value="0.23434343434343435" />
+          <attvalue for="2" value="3.909738354277969" />
+          <attvalue for="3" value="0.00369344123480209" />
+          <attvalue for="4" value="1.2277849483437047" />
+          <attvalue for="5" value="0.7603302079455486" />
+        </attvalues>
+      </edge>
+      <edge source="('css', 'html')" target="('javascript', 'jquery')" id="144" weight="0.1616161616161616">
+        <attvalues>
+          <attvalue for="1" value="0.1616161616161616" />
+          <attvalue for="2" value="5.043546277191136" />
+          <attvalue for="3" value="0.002743995248882409" />
+          <attvalue for="4" value="1.1545497468611503" />
+          <attvalue for="5" value="0.8190726211809958" />
+        </attvalues>
+      </edge>
+      <edge source="('arrays',)" target="('php',)" id="145" weight="0.22074468085106383">
+        <attvalues>
+          <attvalue for="1" value="0.22074468085106383" />
+          <attvalue for="2" value="2.8987000956251494" />
+          <attvalue for="3" value="0.002325938032478285" />
+          <attvalue for="4" value="1.1855511111643255" />
+          <attvalue for="5" value="0.6657268259052385" />
+        </attvalues>
+      </edge>
+      <edge source="('arrays',)" target="('javascript',)" id="146" weight="0.19414893617021275">
+        <attvalues>
+          <attvalue for="1" value="0.19414893617021275" />
+          <attvalue for="2" value="1.8955878170603813" />
+          <attvalue for="3" value="0.0014755505376983485" />
+          <attvalue for="4" value="1.1138267929642283" />
+          <attvalue for="5" value="0.48018350612977656" />
+        </attvalues>
+      </edge>
+      <edge source="('arrays',)" target="('java',)" id="147" weight="0.15691489361702127">
+        <attvalues>
+          <attvalue for="1" value="0.15691489361702127" />
+          <attvalue for="2" value="1.7692854430314786" />
+          <attvalue for="3" value="0.0010975102427980726" />
+          <attvalue for="4" value="1.080924935063603" />
+          <attvalue for="5" value="0.4419087289830656" />
+        </attvalues>
+      </edge>
+      <edge source="('entity-framework',)" target="('c#',)" id="148" weight="0.6016260162601627">
+        <attvalues>
+          <attvalue for="1" value="0.6016260162601627" />
+          <attvalue for="2" value="7.764995308705158" />
+          <attvalue for="3" value="0.002758195096891687" />
+          <attvalue for="4" value="2.31571535091319" />
+          <attvalue for="5" value="0.875825741874514" />
+        </attvalues>
+      </edge>
+      <edge source="('jquery', 'ajax')" target="('javascript',)" id="149" weight="0.4527027027027027">
+        <attvalues>
+          <attvalue for="1" value="0.4527027027027027" />
+          <attvalue for="2" value="4.419997064733907" />
+          <attvalue for="3" value="0.0022179181523396445" />
+          <attvalue for="4" value="1.6400199863307017" />
+          <attvalue for="5" value="0.7786860068040062" />
+        </attvalues>
+      </edge>
+      <edge source="('hibernate',)" target="('java',)" id="150" weight="0.6111111111111112">
+        <attvalues>
+          <attvalue for="1" value="0.6111111111111112" />
+          <attvalue for="2" value="6.8905504636329535" />
+          <attvalue for="3" value="0.0024138643406337" />
+          <attvalue for="4" value="2.3433729785231456" />
+          <attvalue for="5" value="0.8588420090182318" />
+        </attvalues>
+      </edge>
+      <edge source="('css',)" target="('html',)" id="151" weight="0.6096059113300493">
+        <attvalues>
+          <attvalue for="1" value="0.6096059113300493" />
+          <attvalue for="2" value="12.178571428571429" />
+          <attvalue for="3" value="0.019438471751077154" />
+          <attvalue for="4" value="2.433296021166175" />
+          <attvalue for="5" value="0.9509231128768404" />
+        </attvalues>
+      </edge>
+      <edge source="('css',)" target="('javascript',)" id="152" weight="0.2573891625615763">
+        <attvalues>
+          <attvalue for="1" value="0.2573891625615763" />
+          <attvalue for="2" value="2.5130385487528337" />
+          <attvalue for="3" value="0.005383492209218063" />
+          <attvalue for="4" value="1.2086795139274675" />
+          <attvalue for="5" value="0.6237438653891095" />
+        </attvalues>
+      </edge>
+      <edge source="('css',)" target="('jquery',)" id="153" weight="0.22290640394088668">
+        <attvalues>
+          <attvalue for="1" value="0.22290640394088668" />
+          <attvalue for="2" value="3.7189252574691545" />
+          <attvalue for="3" value="0.005661419731919901" />
+          <attvalue for="4" value="1.209714777835017" />
+          <attvalue for="5" value="0.7574173756195941" />
+        </attvalues>
+      </edge>
+      <edge source="('css',)" target="('javascript', 'html')" id="154" weight="0.17241379310344826">
+        <attvalues>
+          <attvalue for="1" value="0.17241379310344826" />
+          <attvalue for="2" value="8.520084566596195" />
+          <attvalue for="3" value="0.0052865679050825495" />
+          <attvalue for="4" value="1.183881306865178" />
+          <attvalue for="5" value="0.9143958868894602" />
+        </attvalues>
+      </edge>
+      <edge source="('css',)" target="('javascript', 'jquery')" id="155" weight="0.1440886699507389">
+        <attvalues>
+          <attvalue for="1" value="0.1440886699507389" />
+          <attvalue for="2" value="4.49656685103948" />
+          <attvalue for="3" value="0.0038923654010171423" />
+          <attvalue for="4" value="1.1309066890408268" />
+          <attvalue for="5" value="0.8055940061081449" />
+        </attvalues>
+      </edge>
+      <edge source="('css',)" target="('html', 'jquery')" id="156" weight="0.14285714285714285">
+        <attvalues>
+          <attvalue for="1" value="0.14285714285714285" />
+          <attvalue for="2" value="11.056764427625355" />
+          <attvalue for="3" value="0.00451393363838126" />
+          <attvalue for="4" value="1.151592938022304" />
+          <attvalue for="5" value="0.9422923499689743" />
+        </attvalues>
+      </edge>
+      <edge source="('css',)" target="('javascript', 'html', 'jquery')" id="157" weight="0.09852216748768472">
+        <attvalues>
+          <attvalue for="1" value="0.09852216748768472" />
+          <attvalue for="2" value="10.91401489505755" />
+          <attvalue for="3" value="0.0031090089495210155" />
+          <attvalue for="4" value="1.0992759223853883" />
+          <attvalue for="5" value="0.9410668380462726" />
+        </attvalues>
+      </edge>
+      <edge source="('css',)" target="('css3',)" id="158" weight="0.09729064039408866">
+        <attvalues>
+          <attvalue for="1" value="0.09729064039408866" />
+          <attvalue for="2" value="17.90607424071991" />
+          <attvalue for="3" value="0.003191070819287448" />
+          <attvalue for="4" value="1.1017572842155863" />
+          <attvalue for="5" value="0.9781328300413263" />
+        </attvalues>
+      </edge>
+      <edge source="('css',)" target="('twitter-bootstrap',)" id="159" weight="0.08866995073891626">
+        <attvalues>
+          <attvalue for="1" value="0.08866995073891626" />
+          <attvalue for="2" value="13.635338345864662" />
+          <attvalue for="3" value="0.002854436680827736" />
+          <attvalue for="4" value="1.0901616256454965" />
+          <attvalue for="5" value="0.9600114253070551" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'css')" target="('html',)" id="160" weight="0.6698564593301436">
+        <attvalues>
+          <attvalue for="1" value="0.6698564593301436" />
+          <attvalue for="2" value="13.382243487506646" />
+          <attvalue for="3" value="0.005541985795041656" />
+          <attvalue for="4" value="2.8773677677290395" />
+          <attvalue for="5" value="0.9336221516450309" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'css')" target="('jquery',)" id="161" weight="0.5598086124401914">
+        <attvalues>
+          <attvalue for="1" value="0.5598086124401914" />
+          <attvalue for="2" value="9.339733409833714" />
+          <attvalue for="3" value="0.004469619057283988" />
+          <attvalue for="4" value="2.1355747374451735" />
+          <attvalue for="5" value="0.9009867893096902" />
+        </attvalues>
+      </edge>
+      <edge source="('javascript', 'css')" target="('html', 'jquery')" id="162" weight="0.3827751196172249">
+        <attvalues>
+          <attvalue for="1" value="0.3827751196172249" />
+          <attvalue for="2" value="29.625780284546405" />
+          <attvalue for="3" value="0.0033070783427249398" />
+          <attvalue for="4" value="1.599222086688781" />
+          <attvalue for="5" value="0.9749633067127131" />
+        </attvalues>
+      </edge>
+      <edge source="('node.js',)" target="('javascript',)" id="163" weight="0.3653136531365313">
+        <attvalues>
+          <attvalue for="1" value="0.3653136531365313" />
+          <attvalue for="2" value="3.566767472185999" />
+          <attvalue for="3" value="0.0030479924332491278" />
+          <attvalue for="4" value="1.4142079949695645" />
+          <attvalue for="5" value="0.7280754565522777" />
+        </attvalues>
+      </edge>
+      <edge source="('node.js',)" target="('express',)" id="164" weight="0.17343173431734318">
+        <attvalues>
+          <attvalue for="1" value="0.17343173431734318" />
+          <attvalue for="2" value="73.70533378061053" />
+          <attvalue for="3" value="0.0019834998571485775" />
+          <attvalue for="4" value="1.2069746681294233" />
+          <attvalue for="5" value="0.9980033909200335" />
+        </attvalues>
+      </edge>
+      <edge source="('angularjs',)" target="('javascript',)" id="165" weight="0.4704641350210971">
+        <attvalues>
+          <attvalue for="1" value="0.4704641350210971" />
+          <attvalue for="2" value="4.5934121520397335" />
+          <attvalue for="3" value="0.007463515524057966" />
+          <attvalue for="4" value="1.6950287325072944" />
+          <attvalue for="5" value="0.7984894354475494" />
+        </attvalues>
+      </edge>
+      <edge source="('css', 'jquery')" target="('javascript',)" id="166" weight="0.6464088397790055">
+        <attvalues>
+          <attvalue for="1" value="0.6464088397790055" />
+          <attvalue for="2" value="6.311261579362771" />
+          <attvalue for="3" value="0.004212445862576119" />
+          <attvalue for="4" value="2.538464212372722" />
+          <attvalue for="5" value="0.8481206199483265" />
+        </attvalues>
+      </edge>
+      <edge source="('css', 'jquery')" target="('html',)" id="167" weight="0.6408839779005525">
+        <attvalues>
+          <attvalue for="1" value="0.6408839779005525" />
+          <attvalue for="2" value="12.803437691835482" />
+          <attvalue for="3" value="0.004575166135842254" />
+          <attvalue for="4" value="2.6452297424488753" />
+          <attvalue for="5" value="0.9290905252327917" />
+        </attvalues>
+      </edge>
+      <edge source="('css', 'jquery')" target="('javascript', 'html')" id="168" weight="0.4419889502762431">
+        <attvalues>
+          <attvalue for="1" value="0.4419889502762431" />
+          <attvalue for="2" value="21.841542756357093" />
+          <attvalue for="3" value="0.0032659046406150255" />
+          <attvalue for="4" value="1.7558144066310455" />
+          <attvalue for="5" value="0.9616624628120554" />
+        </attvalues>
+      </edge>
+      <edge source="('laravel',)" target="('php',)" id="169" weight="0.6914893617021277">
+        <attvalues>
+          <attvalue for="1" value="0.6914893617021277" />
+          <attvalue for="2" value="9.080265359789625" />
+          <attvalue for="3" value="0.0024746136259427938" />
+          <attvalue for="4" value="2.994538582509892" />
+          <attvalue for="5" value="0.8934641818662438" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

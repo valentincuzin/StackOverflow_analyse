@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-16">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="confidence" type="double" />
+      <attribute id="2" title="lift" type="double" />
+      <attribute id="3" title="leverage" type="double" />
+      <attribute id="4" title="conviction" type="double" />
+      <attribute id="5" title="zhang" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="support" type="double" />
+    </attributes>
+    <nodes>
+      <node id="('vba',)" label="('vba',)">
+        <attvalues>
+          <attvalue for="0" value="0.00504834431419526" />
+        </attvalues>
+      </node>
+      <node id="('excel',)" label="('excel',)">
+        <attvalues>
+          <attvalue for="0" value="0.008642080944639342" />
+        </attvalues>
+      </node>
+      <node id="('excel-vba',)" label="('excel-vba',)">
+        <attvalues>
+          <attvalue for="0" value="0.004064344998716523" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="('vba',)" target="('excel',)" id="0" weight="0.5508474576271186">
+        <attvalues>
+          <attvalue for="1" value="0.5508474576271186" />
+          <attvalue for="2" value="63.74014096324887" />
+          <attvalue for="3" value="0.0027372394305010934" />
+          <attvalue for="4" value="2.207174234877973" />
+          <attvalue for="5" value="0.9893056547855309" />
+        </attvalues>
+      </edge>
+      <edge source="('vba',)" target="('excel-vba',)" id="1" weight="0.4915254237288135">
+        <attvalues>
+          <attvalue for="1" value="0.4915254237288135" />
+          <attvalue for="2" value="120.93595004460302" />
+          <attvalue for="3" value="0.002460871365198573" />
+          <attvalue for="4" value="1.9586734548358575" />
+          <attvalue for="5" value="0.9967631638257238" />
+        </attvalues>
+      </edge>
+      <edge source="('excel',)" target="('vba',)" id="2" weight="0.3217821782178218">
+        <attvalues>
+          <attvalue for="1" value="0.3217821782178218" />
+          <attvalue for="2" value="63.74014096324887" />
+          <attvalue for="3" value="0.0027372394305010934" />
+          <attvalue for="4" value="1.4670090105732305" />
+          <attvalue for="5" value="0.992891951825147" />
+        </attvalues>
+      </edge>
+      <edge source="('excel',)" target="('excel-vba',)" id="3" weight="0.30198019801980197">
+        <attvalues>
+          <attvalue for="1" value="0.30198019801980197" />
+          <attvalue for="2" value="74.29984366857738" />
+          <attvalue for="3" value="0.002574612916499498" />
+          <attvalue for="4" value="1.426801434824534" />
+          <attvalue for="5" value="0.995141111516726" />
+        </attvalues>
+      </edge>
+      <edge source="('excel-vba',)" target="('excel',)" id="4" weight="0.6421052631578946">
+        <attvalues>
+          <attvalue for="1" value="0.6421052631578946" />
+          <attvalue for="2" value="74.29984366857738" />
+          <attvalue for="3" value="0.002574612916499498" />
+          <attvalue for="4" value="2.769970656184095" />
+          <attvalue for="5" value="0.9905670276242783" />
+        </attvalues>
+      </edge>
+      <edge source="('excel-vba',)" target="('vba',)" id="5" weight="0.6105263157894737">
+        <attvalues>
+          <attvalue for="1" value="0.6105263157894737" />
+          <attvalue for="2" value="120.93595004460303" />
+          <attvalue for="3" value="0.002460871365198573" />
+          <attvalue for="4" value="2.554605602436526" />
+          <attvalue for="5" value="0.9957783469191561" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

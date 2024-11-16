@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-11-16">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="confidence" type="double" />
+      <attribute id="2" title="lift" type="double" />
+      <attribute id="3" title="leverage" type="double" />
+      <attribute id="4" title="conviction" type="double" />
+      <attribute id="5" title="zhang" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="support" type="double" />
+    </attributes>
+    <nodes>
+      <node id="('c',)" label="('c',)">
+        <attvalues>
+          <attvalue for="0" value="0.017669205099683408" />
+        </attvalues>
+      </node>
+      <node id="('qt',)" label="('qt',)">
+        <attvalues>
+          <attvalue for="0" value="0.004492170788055104" />
+        </attvalues>
+      </node>
+      <node id="('c++11',)" label="('c++11',)">
+        <attvalues>
+          <attvalue for="0" value="0.0028664327885684947" />
+        </attvalues>
+      </node>
+      <node id="('c++',)" label="('c++',)">
+        <attvalues>
+          <attvalue for="0" value="0.037092495935655" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="('c',)" target="('c++',)" id="0" weight="0.14527845036319614">
+        <attvalues>
+          <attvalue for="1" value="0.14527845036319614" />
+          <attvalue for="2" value="3.916653401141115" />
+          <attvalue for="3" value="0.0019115598176852266" />
+          <attvalue for="4" value="1.1265745019223072" />
+          <attvalue for="5" value="0.7580745612124906" />
+        </attvalues>
+      </edge>
+      <edge source="('qt',)" target="('c++',)" id="1" weight="0.49523809523809526">
+        <attvalues>
+          <attvalue for="1" value="0.49523809523809526" />
+          <attvalue for="2" value="13.351436260778822" />
+          <attvalue for="3" value="0.0020580682778624207" />
+          <attvalue for="4" value="1.9076469420142685" />
+          <attvalue for="5" value="0.929276158110659" />
+        </attvalues>
+      </edge>
+      <edge source="('c++11',)" target="('c++',)" id="2" weight="0.8656716417910448">
+        <attvalues>
+          <attvalue for="1" value="0.8656716417910448" />
+          <attvalue for="2" value="23.33818795296872" />
+          <attvalue for="3" value="0.0023750664316039664" />
+          <attvalue for="4" value="7.168311419145683" />
+          <attvalue for="5" value="0.9599032701437927" />
+        </attvalues>
+      </edge>
+      <edge source="('c++',)" target="('c',)" id="3" weight="0.06920415224913495">
+        <attvalues>
+          <attvalue for="1" value="0.06920415224913495" />
+          <attvalue for="2" value="3.916653401141115" />
+          <attvalue for="3" value="0.0019115598176852266" />
+          <attvalue for="4" value="1.0553665417330538" />
+          <attvalue for="5" value="0.7733660638912339" />
+        </attvalues>
+      </edge>
+      <edge source="('c++',)" target="('c++11',)" id="4" weight="0.06689734717416379">
+        <attvalues>
+          <attvalue for="1" value="0.06689734717416379" />
+          <attvalue for="2" value="23.338187952968724" />
+          <attvalue for="3" value="0.0023750664316039664" />
+          <attvalue for="4" value="1.0686215114614477" />
+          <attvalue for="5" value="0.9940225493064991" />
+        </attvalues>
+      </edge>
+      <edge source="('c++',)" target="('qt',)" id="5" weight="0.05997693194925029">
+        <attvalues>
+          <attvalue for="1" value="0.05997693194925029" />
+          <attvalue for="2" value="13.35143626077882" />
+          <attvalue for="3" value="0.0020580682778624207" />
+          <attvalue for="4" value="1.0590248931616641" />
+          <attvalue for="5" value="0.9607378559149118" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
