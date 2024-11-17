@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2024-11-16">
+  <meta lastmodifieddate="2024-11-17">
     <creator>NetworkX 3.3</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
@@ -23,7 +23,7 @@
       </node>
     </nodes>
     <edges>
-      <edge source="('facebook',)" target="('facebook-graph-api',)" id="0" weight="0.06828189526426931">
+      <edge source="('facebook',)" target="('facebook-graph-api',)" id="0" weight="0.06828189526426909">
         <attvalues>
           <attvalue for="1" value="0.2666666666666667" />
         </attvalues>
